@@ -1,0 +1,75 @@
+/* Main actualite */
+#actualite ul li {
+    color : #000000;
+    font-size: 1.5em;
+    margin:auto;
+    font-family: 'SourceSansPro', Arial, serif;
+    text-align: justify;
+}
+
+.important {
+    font-weight : bold;
+    background-color: #38C3FF;
+    color : #000000;
+}
+
+/* Main video */
+
+#video-list {
+    display : flex;
+    flex-direction : row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top : 10px;
+}
+
+.video-card {
+    padding : 10px;
+    margin : 10px;
+    width: 23%;
+    background-color: #7B23FF;
+    border-radius: 20px;
+    box-shadow: #000000 5px 5px 5px 1px; 
+    text-decoration-color: #FFFFFF;
+}
+
+.video-card:hover {
+    background-color: #C299FF;
+    text-decoration-color: #000000;
+}
+
+.video-card:hover h3 {
+    color : #000000
+}
+
+.video-card img {
+    width : 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.video-card h3 {
+    color : #FFFFFF;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'SourceSansPro', Arial, serif;
+}
+
+@media screen and (max-width: 1000px) 
+{
+    .video-card {
+        width: 40%;
+    }
+    #promesse img {
+        width : 0%;
+    }
+    #promesse-text {
+        width : 100%;
+    } 
+}
+
+@media screen and (max-width: 749px) 
+{
+    .video-card {
+        width: 90%;
+    }
+}

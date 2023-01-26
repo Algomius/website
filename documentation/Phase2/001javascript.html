@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Le cahier des charges reprend les étapes de création d'un site web">
+        <meta name="author" content="Algomius">
+        <link rel="stylesheet" href="../../style/normalize.css" />
+        <link rel="stylesheet" href="../../style/common.css" />
+        <title>Algomius - le cahier des charges</title>
+    </head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XCGRJ718E7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XCGRJ718E7');
+    </script>
+    <body>
+        <header id="entete"></header>
+
+        <main>
+            <H1>Un peu de dynamisme avec le Javascript</H1>
+            <section class="navigation">
+                <span class="bouton invisible"></span>
+                <a href="../documentation.html" class="bouton">Sommaire</a>
+                <span class="bouton invisible"></span>
+            </section>
+            <section class="docu">
+                <p>Utiliser uniquement du HTML et du CSS pour créer un site internet permet de rester sur des choses très simples. Cependant, 
+                    le HTML est un langage de balisage statique. Tout ce qui doit être affiché doit être écrit. S'il y a 138 éléments à afficher, 
+                    il faut définir 138 éléments dans le fichier HTML, même s'ils ont tous un aspect identique. C'est assez frustrant en tant que 
+                    développeur car on a l'impression de faire toujours la même chose et de répéter les actions inutilement. Il doit y avoir un moyen 
+                    de réaliser un site sans dupliquer le code mais pour cela nous allons avoir besoin d'un langage de programmation complet : 
+                    Le javascript.
+                </p>
+            </section>
+            <section class="docu">
+                <h2>I. Les limites du HTML et du CSS</h2>
+                <p>Le HTML nous fait répéter des éléments de structure ou des éléments de style. Mais répéter les choses n'est pas naturel pour un 
+                    développeur. Nous cherchons à toujours produire le moins de code possible. Ce n'est pas uniquement par fainéantise. Nous savons 
+                    très bien que plus de code c'est :
+                </p>
+                <ul>
+                    <li>Plus de code à maintenir</li>
+                    <li>Plus de possibilités de provoquer des erreurs</li>
+                    <li>Des modifications plus complexes et à différents endroits</li>
+                    <li>Une évolution du site plus difficile</li>
+                </ul>
+                <p>
+                    Dans l'état actuel du site si je modifie un élément de l'entête, je suis obligé de modifier toutes les pages HTML. Le site 
+                    grandissant, ce travail risque de me prendre de plus en plus de temps. Je voudrais donc que les éléments communs aux entêtes 
+                    se retrouvent à un seul endroit dans le site. C'est ce que l'on appelle factoriser.  
+                </p>
+                <p>
+                    Le temps d'un développeur est important et il est facile de le perdre lorsque l'on cherche à modifier une usine à gaz. Il 
+                    n'est jamais trop tard pour prendre du recul sur un projet et voir comment on pourrait le simplifier. Faire plus avec moins 
+                    devrait devenir une devise pour les développeurs. Il ne faut jamais oublier que développer des trucs pénibles utilise le temps 
+                    que l'on pourrait prendre pour développer des trucs intéressants.
+                </p>
+            </section>
+            <section class="docu">
+                <h2>II. Les avantages du javascript</h2>
+                <p>A la différence du HTML, le javascript est un langage de programmation complet. Il comprend :</p>
+                <ul>
+                    <li>Des variables</li>
+                    <li>Des structures conditionnelles (si … alors…sinon)</li>
+                    <li>Des boucles (Tant que, pour)</li>
+                    <li>Des fonctions </li>
+                    <li>Des types de données plus complexes comme les tableaux ou les objets</li>
+                </ul>
+                <p>
+                    Le javascript est donc une boite à outils efficace pour rendre l'affichage de notre site dynamique. Nous allons utiliser 
+                    le javascript car il est compréhensible par tous les navigateurs récents comme le HTML et le CSS. Il n'y aura donc rien 
+                    à installer pour compiler ou interpréter le javascript, c'est le navigateur qui va s'en charger. Un truc qui marche sans 
+                    qu'il n'y ait rien à faire, c'est parfois très agréable.
+                </p>
+                <p>
+                    Le javascript étant un langage complet, nous allons même pouvoir nous lancer dans le développement orienté objet. Nous 
+                    pourrons alors définir nos propres types pour aller au-delà des types simples que le langage nous offre de prime abord. 
+                    Notre imagination sera notre seule limite. 
+                </p>
+                <p>
+                    Comme tous les langages, il va falloir un temps d'apprentissage pour bien maîtriser le javascript. Ceux qui ont déjà 
+                    programmé auront naturellement un avantage car les structures resteront les mêmes. Il y aura peut-être des différences au niveau 
+                    de la syntaxe mais rien d'insurmontable. La vie serait bien monotone si la même fonction utilisait les mêmes paramètres dans 
+                    tous les langages.
+                </p>
+                <p>
+                    De plus, le javascript ne va pas seulement améliorer la structure de notre site mais va aussi permettre de réaliser des 
+                    fonctions ou des affichages plus intéressants. Il sera alors possible de créer des pages qui ne vont pas juste se limiter à de 
+                    l'affichage mais vont vraiment pouvoir interagir avec des utilisateurs. Les spectateurs d'aujourd'hui deviendront les acteurs 
+                    de demain. Le javascript est un coup de projecteur sur nos utilisateurs, une attention particulière que nous leur portons pour 
+                    qu'ils puissent également apporter leur pierre à l'édifice fantastique qu'est le site https://www.algomius.fr.  
+                </p>
+            </section>
+            <section class="docu">
+                <h2>III. Le javascript et le <abbr title="Document Object Model">DOM</abbr></h2>
+                <p>
+                    Le <abbr title="Document Object Model">DOM</abbr> est une interface qui va permettre au javascript d'interagir avec un fichier HTML. 
+                    A travers le <abbr title="Document Object Model">DOM</abbr>, javascript va pouvoir accéder à tous les éléments (titre, section, navigation…) d'une page HTML et 
+                    en modifier les contenus et attributs. 
+                </p>
+                <p>
+                    Cela peut paraître un peu mystérieux et très compliqué à mettre en œuvre mais c'est en fait très simple en respectant quelques étapes 
+                    (bon ça reste un peu mystérieux quand même) :
+                </p>
+                <ul>
+                    <li>Il faut déclarer le script javascript dans le fichier HTML</li>
+                    <li>Il faut utiliser la variable document dans le javascript. Cette variable contient l'arborescence de la page HTML</li>
+                </ul>
+                <p>
+                    Cette fois-ci les éléments vont pouvoir être créés à travers des boucles et cela va nous permettre d'économiser un grand nombre 
+                    de lignes de codes. Notre site sera donc beaucoup plus facile à maintenir et à faire évoluer. C'est une bonne chose à prendre en 
+                    compte dès le début, avant que le projet devienne tentaculaire et que plus personne n'ait envie d'y mettre le nez. Simplifier, 
+                    et simplifier encore.
+                </p>
+                <p>
+                    Il s'agit aussi d'une première étape qui va nous permettre d'externaliser les données. En effet, la plupart des sites dynamiques 
+                    n'affichent pas un nombre déterminé d'articles mais ils affichent tous ceux qui se trouvent dans une base de données. Cette 
+                    séparation des données et des traitements va aussi permettre de ne pas modifier le code en ajoutant des informations sur le site. 
+                    En effet, par inadvertance nous pourrions complétement casser la structure du site. Etant le seul développeur 
+                    sur https://www.algomius.fr je ne pourrais même pas rejeter la faute sur quelqu'un d'autre. Je serai obligé d'invoquer le bug 
+                    de l'an 2000 ou une faille dans les normes du W3C. 
+                </p>
+                <p>
+                    Imaginons que nous gérons un site marchand, nous ne voulons pas modifier le site à chaque fois que nous créons ou supprimons un article. 
+                    Imaginons Jeff Bezos devoir modifier le site d'Amazon à chaque fois qu'une savonnerie sort un nouveau parfum. Nous voulons simplement 
+                    que le site affiche tous les articles qui se trouvent dans la base. Nous ne savons pas à l'avance combien d'articles seront affichés, 
+                    cela dépendra des données. Le nombre d'articles pourra ensuite varier dans le temps, le code du site ne bougera plus.
+                </p>
+                <p>
+                    Bref, avec le javascript on va en faire beaucoup plus en écrivant beaucoup moins de code. Je l'ai dit que c'était bien d'avoir moins de 
+                    code ? J'ai déjà dû l'insinuer subtilement une fois ou deux.
+                </p>
+            </section>
+            <section class="docu">
+                <h2>IV. Factoriser grâce au javascript</h2>
+                <p>
+                    Pour cette première étape de mise en place du javascript nous allons solutionner un des plus gros problèmes du 
+                    site https://www.algomius.fr. Les entêtes et les pieds de pages sont dupliqués sur chaque page. Si j'ai 100 pages 
+                    dans mon site et que je dois modifier l'entête je vais devoir effectuer 100 modifications et probablement avaler 
+                    quelques aspirines. Personne n'a envie de faire ça, PERSONNE !!!
+                </p>
+                <p>
+                    Je veux donc avoir une entête définie une fois pour toute et que toutes les pages du site utilisent cette entête unique. 
+                    Ce n'était pas possible en HTML, ça le devient avec javascript. 
+                </p>
+                <p>
+                    La première étape est de créer un fichier javascript qui va créer l'entête. Ce fichier javascript sera ensuite intégré 
+                    à toutes les pages HTML et le tour est joué. Une modification dans l'entête ? Pas de problème, je modifierai simplement 
+                    la seule fonction du site qui génère l'entête. Une modification à un seul endroit qui se répercutera sur toutes les 
+                    pages. Elle n'est pas belle la vie ?
+                </p>
+                <p>
+                    Naturellement, pour générer une structure HTML correcte, il va falloir comprendre comment le javascript manipule le 
+                    <abbr title="Document Object Model">DOM</abbr> et comment je peux créer des éléments qui en contiennent d'autres. Pas 
+                    de panique, le langage javascript est très utilisé. Il est donc documenté et des milliers de développeurs vous 
+                    viendront en aide en cas de problème. Le plus dur, c'est de se lancer.
+                </p>
+
+            </section>
+            <section class="docu">
+                <h2>V. Autres idées à réaliser en javascript</h2>
+                <p>
+                    Maintenant que je suis sur ma lancée, le dynamisme du javascript me donne bien d'autres idées :
+                </p>
+                <ul>
+                    <li>Séparer les données des traitements</li>
+                    <li>Factoriser les éléments graphiques qui reviennent souvent</li>
+                    <li>Mettre en place une base de données</li>
+                    <li>Utiliser javascript pour écrire des calculateurs et faire comprendre les maths aux développeurs</li>
+                    <li>Utiliser javascript comme langage serveur</li>
+                </ul>
+                <p>
+                    Toutes ces idées sont autant de défis à relever pour en apprendre plus sur le langage Javascript. J'ai toujours aimé 
+                    programmer en résolvant des problèmes concrets et je pense ici n'être qu'au début du chemin. Nous allons y aller par 
+                    étapes. En approfondissant les connaissances sur le langage et en voyant ses possibilités, d'autres projets viendront 
+                    probablement compléter cette liste.
+                </p>
+            </section>
+            <section class="docu">
+            <h2>Ressources, inspirations et lectures</h2>
+                <ul>
+                    <li><a href="https://openclassrooms.com/fr/courses/6175841-apprenez-a-programmer-avec-javascript" target="_blank" rel="noopener noreferrer">Apprenez à programmer en Javascript (Openclassrooms)</a></li>
+                    <li><a href="https://openclassrooms.com/fr/courses/7697016-creez-des-pages-web-dynamiques-avec-javascript" target="_blank" rel="noopener noreferrer">Javascript pour le web (Openclassrooms)</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=jS4aFq5-91M" target="_blank" rel="noopener noreferrer">Cours complet javascript en vidéo (freecodecamp - en anglais)</a></li>
+                    <li><a href="https://www.oreilly.com/library/view/javascript-the-definitive/9781491952016/" target="_blank" rel="noopener noreferrer">Manuel de référence en Javascript</a></li>
+                </ul>
+            </section>
+            <section class="navigation">
+                <span class="bouton invisible"></span>
+                <a href="../documentation.html" class="bouton">Sommaire</a>
+                <span class="bouton invisible"></span>
+            </section>
+        </main>
+        <footer id="pied"> </footer>
+    </body>
+    <script>
+        let cheminRacine = "../..";
+    </script>
+    <script src="../../js/common.js"></script>
+</html>

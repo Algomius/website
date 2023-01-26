@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Mise en place des règles d'accessibilité">
+        <meta name="author" content="Algomius">
+        <link rel="stylesheet" href="../../style/normalize.css" />
+        <link rel="stylesheet" href="../../style/common.css" />
+        <title>Algomius - Accessibilité</title>
+    </head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XCGRJ718E7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XCGRJ718E7');
+    </script>
+    <body>
+        <header id="entete"></header>
+
+        <main>
+            <H1>Accessibilité</H1>
+            <section class="navigation">
+                <a href="./006SEO.html" class="bouton">< Référencement </a>
+                <a href="../documentation.html" class="bouton">Sommaire</a>
+                <span class="bouton invisible"></span>
+            </section>
+            <section class="docu">
+                <p>L'accessibilité est une notion très importante dans la mise en place d'un site internet. Elle permet de rendre le contenu accessible au plus grand nombre.
+                   Bien entendu, tout le monde aimerait pouvoir consulter le contenu du site https://www.algomius.fr. Je vais donc me faire un devoir de mettre en place le plus 
+                   de règles d'accessibilité possibles. Rendre la programmation accessible à tous est justement le but du site. Algomius a été créé pour bouleverser des vies, 
+                   modifier des carrières, susciter des vocations. Tout le monde doit pouvoir en profiter. Cela fait plusieurs fois maintenant que j'utilise le terme d'accessibilité. 
+                   Il serait temps de comprendre de quoi on parle. Première mission : rendre l'accessibilité.... accessible. 
+                </p>
+            </section>
+            <section class="docu">
+                <h2>I. L'accessibilité c'est quoi ?</h2>
+                <p>L'idée de l'accessibilité s'exprime facilement. Il faut que le maximum de personnes puisse accéder au contenu du site même si elles n'ont pas
+                    10/10 à chaque oeil, une audition parfaite ou les réflexes de Bruce Lee. Nous allons voir que les obstacles sont nombreux car les cas 
+                    à prévoir le sont tout autant. Nous n'allons pas individualiser l'utilisation du site. Cela prendrait trop de temps de développer 8 Milliards 
+                    de variantes pour satisfaire chaque être humain. Nous allons donc tenter de palier les problèmes d'accessibilité les plus graves et en faisant 
+                    cela nous allons, la plupart du temps, améliorer les choses pour tout le monde.
+                </p>
+                <p>On peut imaginer de nombreux obstacles : </p>
+                <ul>
+                    <li>Obstacles liés aux sens : vue, ouïe, toucher (un peu moins le goût et l'odorat, mais peut être dans l'avenir...)</li>
+                    <li>Obstacles liés à la communication : message incompréhensible ou dans une langue inconnue</li>
+                    <li>Obstacles liés à la mobilité et la motricité : penser les temps de validation ou les modes d'intéraction</li>
+                    <li>...</li>
+                </ul>
+                <p>Plus nous allons réduire ces obstacles, plus le site sera accessible. Il y a énormément de paramètres. Je ne sais pas s'il est possible de 
+                    faire un site 100% accessible et je ne sais pas si ce doit être un but en soi. Je vais partir du principe que je vais mettre en place 
+                    les règles que je comprends et que l'accessibilité va plutôt être un travail en continu. Si je trouve des choses qui améliorent l'accès au contenu 
+                    je les mettrai en place. L'accessibilité n'est pas quelque chose que l'on met en place une fois pour toute. Les technologies bougent, les outils bougent.
+                    Je ne me considère pas non plus comme un expert en accessibilité, donc le site évoluera en même temps que moi sur ce sujet. 
+                </p>
+                <p>Partons d'un constat simple pour chaque utilisateur : </p>
+                <ul>
+                    <li>Il veut pouvoir consulter le site : lire, écouter, visionner...</li>
+                    <li>Il veut pouvoir influer sur le site : cliquer, saisir, naviguer...</li>
+                </ul>
+                <p>Mon côté développeur résume tout ça en : Il a besoin d'un bon input et d'un bon print. Il ne reste donc plus qu'à définir ce qu'est un bon 
+                    input et un bon print. C'est là que cela se complique. Un non voyant et un non entendant n'auront pas la même façon de consommer le contenu.
+                    Quelqu'un qui utilise une souris ou un autre qui utilise l'ordinateur grâce à une reconnaissance faciale et le souffle n'auront pas non plus la 
+                    même façon d'interagir avec le site. Pourtant toutes ces personnes doivent avoir accès au même contenu. Heureusement, au niveau du HTML et du CSS,
+                    des outils ont été mis en place pour aider les développeurs dans leur tâche. C'est vraiment une bonne idée car en développant un site de façon autonomme,
+                    je commence à voir que l'on ne peut pas être expert en tout et un peu d'aide ne fait pas de mal. 
+                </p>
+            </section>
+            <section class="docu">
+                <h2>II. Trouver de l'information sur l'accessibilité</h2>
+                <p>Les <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> constituent un ensemble de bonnes pratiques pour rendre les sites plus accessibles.
+                Une bonne pratique n'est pas une obligation, c'est juste un conseil pour bien faire les choses. On peut faire un gâteau sans recette à partir de chips et de 
+                chocolat fondu. Ca marche mais c'est dégueulasse. Pour les règles d'accessibilité c'est pareil. Il est possible de retrouver ces règles en ligne : <a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank" rel="noopener noreferrer">Règles WCAG</a>.
+                Comme vous pouvez le voir, ces règles évoluent tout le temps. Elles se basent sur 4 familles :
+                </p>
+                <ul>
+                    <li>Perceptibilité : vu, entendu, touché (si ça sent le cramé, ce n'est pas une évolution de marmiton, c'est probablement votre processeur qui est en train de griller)</li>
+                    <li>Exploitabilité : usage aux travers de différents moyens de navigation</li>
+                    <li>Compréhension : information exploitable ou agglomérat de mots qui ne veulent rien dire</li>
+                    <li>Robustesse : la technologie du site permet de s'adapter aux technologies d'assistance</li>
+                </ul>
+                <p>
+                    Dans chaque famille on peut retrouver énormément d'informations pour améliorer nos sites internet. Souvent la solution passe par une version 
+                    alternative d'un média, une autre façon d'accéder à la même information. Par exemple, un champs erroné dans un formulaire peut prendre la couleur rouge 
+                    et un message d'aide peut s'afficher à côté. Il y a donc une alternative pour quelqu'un qui ne distinguerait pas la couleur. De manière générale, la couleur 
+                    ne doit jamais être la seule manifestation d'une information. Si on regarde les lignes de metro, c'est exactement la même chose. Une ligne a sa couleur, 
+                    son numéro et ses noms de stations, plusieurs informations pour la même ligne dans des codes différents. Par contre ajouter des alternatives peu courantes
+                    risque d'alourdir le site sans apporter d'information utile. Ce n'est pas la peine d'utiliser le morse, le klingon ou l'elfique pour augmenter la compréhension 
+                    du public. Nous pouvons donner quelques exemples de composants d'un site et leurs alternatives :
+                </p>
+                <ul>
+                    <li>Le texte : il s'affiche sur l'écran, il peut être lu par un logiciel, il peut être transformé en braille</li>
+                    <li>Les images : il faut ajouter une description alternative (balise alt) pour qu'elle puisse être lue</li>
+                    <li>Les vidéos : il faut ajouter des sous titres</li>
+                    <li>Les fichiers sonores : il faut ajouter la transcription qui correspond</li>
+                </ul> 
+                <p>Les critères d'accessibilité sont également indiqués sur plusieurs niveaux :
+                </p>
+                <ul>
+                    <li>A : la base</li>
+                    <li>AA : bonne pratique</li>
+                    <li>AAA : pratique avancée</li>
+                </ul>
+                <p>Il y a donc pour chaque recommendation plusieurs niveaux atteignables. La pratique avancée est souvent plus difficile à mettre en oeuvre et à comprendre.
+                    Il est donc possible d'aborder le problème de l'accessibilité simplement en offrant au départ une accessibilité de base au site puis en faisant évoluer 
+                    le niveau de certains éléments. Lorsque l'on débute dans le domaine, il est réconfortant de savoir que l'accessibilité d'un site n'est pas binaire (C'est accessible ou ça ne l'est pas). 
+                    Il y a un degré d'accessibilité qui peut toujours être augmenté avec l'acquisition des connaissances du développeur.
+                </p>
+            </section>
+            <section class="docu">
+                <h2>III. Evaluer l'accessibilité du site</h2>
+                <p>Nous avons mis en place un site et nous voulons évaluer son accessibilité. Nous allons nous apercevoir que de nombreuses choses que nous avons 
+                    mises en place pour le référencement vont nous servir aussi pour l'accessibilité. Ce n'est pas un hasard. Le référencement nous a demandé de rendre 
+                    notre site compréhensible, c'est exactement la même chose qui nous est demandé ici. Que ce soit le crawler de google ou les outils d'assistance le problème 
+                    est exactement le même. Le site doit être clair et montrer à quoi il sert et comment il est construit. Les technologies d'assistance ont besoin de comprendre le site pour 
+                    fonctionner au mieux. Ceci impose donc au minimum :
+                </p>
+                <ul>
+                    <li>L'utilisation des balises sémantiques (nav, section, header, main, footer) et éviter les balises génériques (div, span)</li>
+                    <li>Une structure de HTML correcte (pensez au validateur W3C)</li>
+                    <li>Des propriétés alternatives renseignées (balise alt)</li>
+                </ul>
+                <p> 
+                    Le HTML est assez permissif. On ne ferme pas une balise? Pas grave, ça s'affiche quand même. Mais la page ne sera pas comprise. Les outils vont 
+                    interprêter le contenu de la page et vont comprendre qu'elle a été codée n'importe comment. Puis l'outil va simplement hausser les épaules et signaler 
+                    à son utilisateur "No comprendo la HTML structura". Donc une page mal écrite, mal pensée, mal construite vous coupera de vos utilisateurs. Vous ne voulez 
+                    pas utiliser les règles d'accessibilité ? C'est vous qui voyez. Il y en a qui ont essayé... Ils ont eu des problèmes.
+                    Il y a ensuite des critères plus spécifiques à l'accessibilité qu'il faudra prendre en compte. Pour cela il est possible de recourir à 
+                    plusieurs méthodes :
+                </p>
+                <ul>
+                    <li>Outils automatiques</li>
+                    <li>Inspection manuelle</li>
+                    <li>Utiliser des technologies d'assistance</li>
+                </ul>
+                <p>
+                    Les outils automatiques fonctionnement comme les outils liés à la performance. Ils fournissent les points à améliorer. Ce rapport 
+                    est obtenu rapidement mais il ne remonte malheureusement pas toutes les anomalies. De plus si la page comporte des problèmes de structure il
+                    ya une chance pour que l'outil se perde en pleine évaluation. Une analyse manuelle est toujours recommandée pour vérifier 
+                    si les bonnes pratiques ont été appliquées. Certains outils automatiques ont été listés plus loin dans cette page, il en existe bien entendu d'autres.
+                    Utiliser plusieurs outils peut même être bénéfique pour profiter de tous les soucis remontés.
+                </p>
+            </section>
+            <section class="docu">
+                <h2>IV. Quelques éléments à prendre en compte</h2>
+                <p>Pour terminer cette partie sur l'accessibilité, nous pouvons prendre des cas concrets qui vont améliorer l'accès aux informations dans votre site.
+                   Les premiers éléments auxquels on pense lorsque l'on parle de disponibilité du contenu sont la police et les couleurs.  
+                </p> 
+                <p>
+                    Une police non lisible demande un effort de lecture et de concentration, il est donc très important de la choisir correctement. Parfois ce n'est même 
+                    pas vraiment une règle d'accessibilité tellement lire une police est pénible pour tout le monde. Ok, le gothique c'est rigolo 5 minutes, mais si vous 
+                    devez lire un article complet, il y a des chances pour que vous passiez votre chemin. Voici quelques pistes pour choisir votre police :
+                </p>
+                <ul>
+                    <li>Est-ce que l'on peut facilement échanger deux caractères comme le 0 et le O ?</li>
+                    <li>Est-ce qu'il y a assez d'espacement entre les lettres ? (interlettre)</li>
+                    <li>Est-ce qu'il y a assez d'espacement entre les lignes ? (interligne)</li>
+                    <li>Est-ce que l'épaisseur utilisée est correct ? (assez épais pour être lu, assez fin pour que le texte reste lisible)</li>
+                </ul>
+                <p>Au niveau de la couleur, c'est avant tout le contraste qui va jouer un rôle important. On bon contraste va permettre de garder le texte lisible 
+                    même pour les daltoniens. Des outils vous permettent de savoir si le contraste est suffisant. La notion de contraste, elle aussi, est définie 
+                    par un niveau d'accessibilité A, AA ou AAA. Il faut un contraste plutôt marqué pour atteindre un niveau AAA. Il n'y a pas de secret, il 
+                    faut tester et voir ce qui fonctionne. Ecrire en blanc sur du noir ça marche, mais faire un site entier avec ce schéma de couleur va 
+                    donner à votre site l'allure d'une fenêtre de commande. Ce serait parfait pour les administrateurs systèmes mais il faut aussi penser aux gens normaux.
+                </p>
+                <p>
+                    Au niveau des vidéos, Youtube propose un sous-titrage automatique qui est loin d'être parfait. Il n'y a par exemple pas de ponctuation et si vous fourchez
+                    sur un mot l'impact sur le sous titre peut rapidement devenir dramatique. Heureusement cette base peut servir pour écrire le sous titrage définitif. Il 
+                    est également possible d'intégrer un fichier de transcription et Youtube contient un outil qui va synchroniser le texte et l'image.
+                    Il est également possible de mettre en place des sous titres différents par langue. Algomius ayant pour vocation de devenir un site majeur dans un contexte 
+                    international, il s'agit là d'un passage obligé. Comment dit-on "contrainte d'intégrité fonctionnelle" en Vietnamien ?
+                </p>
+                <p>
+                    Il existe enfin des propriétés <abbr title="Accessible Rich Internet Applications">ARIA</abbr> qui permettent de parler directement aux outils 
+                    d'assistance. Elles complètent les balises sémantiques et permettent par exemple de différencier deux sections ou deux barres de navigation. Sur ce 
+                    sujet également, certains liens dans les ressources vous permettront d'en apprendre plus.
+                </p>
+
+            </section>
+            <section class="docu">
+                <h2>V. Tester la page</h2>
+                <p>Il est intéressant de vérifier si la page correspond bien à tous les critères :</p> 
+                <ul>
+                    <li><a href="https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh" target="_blank" rel="noopener noreferrer">Wave Evaluation Tool (extension Chrome - évaluation)</a></li>
+                    <li><a href="https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd" target="_blank" rel="noopener noreferrer">axe - Web Accessibility Testing (extension Chrome - évaluation)</a></li>
+                    <li><a href="https://search.google.com/test/mobile-friendly?hl=fr&utm_source=developers.google.com&utm_medium=referral" target="_blank" rel="noopener noreferrer">HeadingsMap (extension Chrome - hierarchie des titres)</a></li>
+                    <li><a href="https://www.tpgi.com/color-contrast-checker/" target="_blank" rel="noopener noreferrer">TPGi (analyse de contrastes)</a></li>
+                    <li><a href="https://www.nvaccess.org/" target="_blank" rel="noopener noreferrer">Nvaccess (lecteur d'écran)</a></li>
+                </ul>
+                <p>
+                </p>
+            </section>
+            <section class="docu">
+                <h2>Ressources, inspirations et lectures</h2>
+                <ul>
+                    <li><a href="https://openclassrooms.com/fr/courses/6691346-concevez-un-contenu-web-accessible" target="_blank" rel="noopener noreferrer">Concevez un contenu web accessible (openclassrooms)</a></li>
+                    <li><a href="https://openclassrooms.com/fr/courses/6691451-codez-un-site-web-accessible-avec-html-css" target="_blank" rel="noopener noreferrer">Accessibilité en HTML et CSS (openclassrooms)</a></li>
+                    <li><a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank" rel="noopener noreferrer">Règles pour l'accessibilité des contenus web (W3C)</a></li>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles" target="_blank" rel="noopener noreferrer">Rôles (Propriétés ARIA)</a></li>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes" target="_blank" rel="noopener noreferrer">Attributs ARIA</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=NSCOOun-420" target="_blank" rel="noopener noreferrer">Accessibilité par l'exemple (correction freecodecamp)</a></li>
+                </ul>
+            </section>
+            <section class="navigation">
+                <a href="./006SEO.html" class="bouton">< Référencement </a>
+                <a href="../documentation.html" class="bouton">Sommaire</a>
+                <span class="bouton invisible"></span>
+            </section>
+        </main>
+        <footer id="pied"> </footer>
+    </body>
+    <script>
+        let cheminRacine = "../..";
+    </script>
+    <script src="../../js/common.js"></script>
+</html>
