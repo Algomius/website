@@ -20,9 +20,9 @@ function genererActualite() {
         actuListeEle.innerHTML = "<span class=\"important\">" + nouvelle.date + "</span>" ;
         actuListeEle.innerHTML += nouvelle.avantLien;
         if (nouvelle.lienExterne) {
-            actuListeEle.innerHTML += "<a href=\"./documentation/documentation.html\" target=\"_blank\" rel=\"noopener noreferrer\">" + nouvelle.libLien + "</a>";
+            actuListeEle.innerHTML += "<a href=" + nouvelle.cheminLien + "target=\"_blank\" rel=\"noopener noreferrer\">" + nouvelle.libLien + "</a>";
         } else {
-            actuListeEle.innerHTML += "<a href=\"./documentation/documentation.html\">" + nouvelle.libLien + "</a>";
+            actuListeEle.innerHTML += "<a href=" + nouvelle.cheminLien + ">" + nouvelle.libLien + "</a>";
         }
         actuListeEle.innerHTML += nouvelle.apresLien; 
         actuListe.appendChild(actuListeEle);
