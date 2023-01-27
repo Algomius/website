@@ -1,5 +1,13 @@
 actu = [
     {
+        "date" : "27/01/2023",
+        "avantLien" : " : Ajout vidéo (Web) ",
+        "libLien" : "Structurer une page HTML",
+        "cheminLien" : "./documentation/Phase1/005decoupage_maquette.html",
+        "lienExterne" : false,
+        "apresLien" : "" 
+    },
+    {
         "date" : "23/01/2023",
         "avantLien" : " : Ajout des étapes de la ",
         "libLien" : "Phase 2",
@@ -45,14 +53,6 @@ actu = [
         "libLien" : "cahier des charges du site",
         "cheminLien" : "./documentation/Phase1/001charge.html",
         "lienExterne" : false,
-        "apresLien" : "" 
-    },
-    {
-        "date" : "23/12/2022",
-        "avantLien" : " : Ajout vidéo (BTS SIO) ",
-        "libLien" : "exercice sur la théorie des ensembles",
-        "cheminLien" : "https://youtu.be/DaWMNSvYvzo",
-        "lienExterne" : true,
         "apresLien" : "" 
     }
 ];

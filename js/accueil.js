@@ -20,7 +20,7 @@ function genererActualite() {
         actuListeEle.innerHTML = "<span class=\"important\">" + nouvelle.date + "</span>" ;
         actuListeEle.innerHTML += nouvelle.avantLien;
         if (nouvelle.lienExterne) {
-            actuListeEle.innerHTML += "<a href=" + nouvelle.cheminLien + "target=\"_blank\" rel=\"noopener noreferrer\">" + nouvelle.libLien + "</a>";
+            actuListeEle.innerHTML += "<a href=" + nouvelle.cheminLien + " target=\"_blank\" rel=\"noopener noreferrer\">" + nouvelle.libLien + "</a>";
         } else {
             actuListeEle.innerHTML += "<a href=" + nouvelle.cheminLien + ">" + nouvelle.libLien + "</a>";
         }
@@ -51,7 +51,7 @@ function genererVignettes() {
     /* Parcourir les données d'actualité */
     for (let categorie of cate) {
         let videoListeEle = document.createElement("a");
-        videoListeEle.setAttribute("href", categorie.lienCate);
+        videoListeEle.setAttribute("href", "./video/video.html?categorie=" + categorie.idCate);
         videoListeEle.classList.add("video-card");
 
         /* Ajout de l'image */
