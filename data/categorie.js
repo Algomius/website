@@ -510,7 +510,7 @@ cate = [
             {
                 "nomSection" : "UML & CSS",
                 "imageSection" : {
-                    "source" : "../images/web/web-miniature.png",
+                    "source" : "../images/web/html-miniature.png",
                     "alt" : "Perplexe devant le vocabulaire web",
                     "titre" : "UML & CSS"
                 },
