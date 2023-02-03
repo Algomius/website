@@ -1,5 +1,13 @@
 actu = [
     {
+        "date" : "03/02/2023",
+        "avantLien" : " : Ajout vidéo pour parler du ",
+        "libLien" : "CSS - partie commune",
+        "cheminLien" : "./documentation/Phase1/005decoupage_maquette.html",
+        "lienExterne" : false,
+        "apresLien" : "" 
+    },
+    {
         "date" : "27/01/2023",
         "avantLien" : " : Ajout vidéo (Web) ",
         "libLien" : "Structurer une page HTML",
@@ -44,14 +52,6 @@ actu = [
         "avantLien" : " : Ajout vidéo pour parler des ",
         "libLien" : "wireframes",
         "cheminLien" : "./documentation/Phase1/002realisation_wireframe.html",
-        "lienExterne" : false,
-        "apresLien" : "" 
-    },
-    {
-        "date" : "30/12/2022",
-        "avantLien" : " : Ajout vidéo pour parler du ",
-        "libLien" : "cahier des charges du site",
-        "cheminLien" : "./documentation/Phase1/001charge.html",
         "lienExterne" : false,
         "apresLien" : "" 
     }

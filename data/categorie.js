@@ -515,7 +515,8 @@ cate = [
                     "titre" : "UML & CSS"
                 },
                 "videos" : [
-                    { "nomVideo" : "Structure HTML", "lienVideo" : "https://youtu.be/X2TkTI9GwFU"}
+                    { "nomVideo" : "Structure HTML", "lienVideo" : "https://youtu.be/X2TkTI9GwFU"},
+                    { "nomVideo" : "CSS - partie commune", "lienVideo" : "https://youtu.be/U5-1E0rvZCM"}
                 ]
             }
         ]
