@@ -136,6 +136,17 @@ cate = [
                 ]
             },
             {
+                "nomSection" : "Programmation C++",
+                "imageSection" : {
+                    "source" : "../images/programmation/C++-miniature.png",
+                    "alt" : "Programmer en C++",
+                    "titre" : "Programmer en C++"
+                },
+                "videos" : [
+                    { "nomVideo" : "Installation et compilation", "lienVideo" : "https://youtu.be/hNNnJ8CiVvM"}
+                ]
+            },
+            {
                 "nomSection" : "Tests",
                 "imageSection" : {
                     "source" : "../images/programmation/tests-miniature.png",
@@ -504,21 +515,39 @@ cate = [
                     { "nomVideo" : "Le cahier des charges", "lienVideo" : "https://youtu.be/iw1iQRGngCw" },
                     { "nomVideo" : "Les wireframes", "lienVideo" : "https://youtu.be/6YrmJXIgD-A" },
                     { "nomVideo" : "La charte graphique", "lienVideo" : "https://youtu.be/fy8BPqOkYJY"},
-                    { "nomVideo" : "Les maquettes", "lienVideo" : "https://youtu.be/ZFTt7s-FItw" }
+                    { "nomVideo" : "Les maquettes", "lienVideo" : "https://youtu.be/ZFTt7s-FItw" },
+                    { "nomVideo" : "Le référencement naturel (SEO)", "lienVideo" : "https://youtu.be/WYWXlHq_HFw" }
                 ]
             },
             {
-                "nomSection" : "UML & CSS",
+                "nomSection" : "HTML & CSS",
                 "imageSection" : {
                     "source" : "../images/web/html-miniature.png",
                     "alt" : "Perplexe devant le vocabulaire web",
-                    "titre" : "UML & CSS"
+                    "titre" : "HTML & CSS"
                 },
                 "videos" : [
                     { "nomVideo" : "Structure HTML", "lienVideo" : "https://youtu.be/X2TkTI9GwFU"},
-                    { "nomVideo" : "CSS - partie commune", "lienVideo" : "https://youtu.be/U5-1E0rvZCM"}
+                    { "nomVideo" : "CSS - partie commune", "lienVideo" : "https://youtu.be/U5-1E0rvZCM"},
+                    { "nomVideo" : "CSS - entête et pied de page", "lienVideo" : "https://youtu.be/_m5kOtMfeYc"},
+                    { "nomVideo" : "CSS - corps de la page", "lienVideo" : "https://youtu.be/xviZIGhHgCI"},
+                    { "nomVideo" : "CSS - responsive", "lienVideo" : "https://youtu.be/wkWkb_Az2-A"},
                 ]
-            }
+            },
+            {
+                "nomSection" : "Javascript",
+                "imageSection" : {
+                    "source" : "../images/web/javascript-miniature.png",
+                    "alt" : "S'expliquer DOM à Homme",
+                    "titre" : "Javascript"
+                },
+                "videos" : [
+                    { "nomVideo" : "Modifier le DOM avec Javascript", "lienVideo" : "https://youtu.be/Og1gtPR_n6Q"},
+                    { "nomVideo" : "Factoriser avec Javascript", "lienVideo" : "https://youtu.be/x-GhtHbAaAA"},
+                    { "nomVideo" : "Séparer les données avec Javascript et JSON", "lienVideo" : "https://youtu.be/C7ClZn1tjqA"},
+                ]
+            },
+
         ]
     },
     {
@@ -626,7 +655,8 @@ cate = [
                     { "nomVideo" : "Révision en arithmétique", "lienVideo" : "https://youtu.be/nZAvAaWoby8" },
                     { "nomVideo" : "Révision en logique", "lienVideo" : "https://youtu.be/n1y3GQ47Ybg" },
                     { "nomVideo" : "Révision sur la théorie des ensembles", "lienVideo" : "https://youtu.be/R_sl_qzVdwo"},
-                    { "nomVideo" : "Exercice sur la théorie des ensembles", "lienVideo" : "https://youtu.be/DaWMNSvYvzo"}
+                    { "nomVideo" : "Exercice sur la théorie des ensembles", "lienVideo" : "https://youtu.be/DaWMNSvYvzo"},
+                    { "nomVideo" : "Révision des graphes", "lienVideo" : "https://youtu.be/9kuwSTmcw7Y"}
                 ]
             },
         ]

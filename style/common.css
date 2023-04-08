@@ -9,11 +9,22 @@
     src: url('../fonts/SourceSansPro-Regular.ttf') format('truetype');
 }
 
+:root {
+    --black : #000000;
+    --white : #FFFFFF;
+    --light-blue : #38C3FF;
+    --dark-blue : #005FFF;
+    --light-violet : #C299FF;
+    --dark-violet : #7B23FF;
+    --light-gray : #C0C0C0;
+    --dark-gray : #707070;
+}
+
 h1, h2 {
-    background-color: #005FFF;
-    color : #FFFFFF;
+    background-color: var(--dark-blue);
+    color : var(--white);
     border-radius: 10px;
-    box-shadow: #000000 5px 5px 5px 1px; 
+    box-shadow: var(--black) 5px 5px 5px 1px; 
     padding : 10px;
     font-family: 'Oswald', Arial, serif;
 }
@@ -36,10 +47,10 @@ h2 {
 }
 
 .bouton {
-    background-color: #7B23FF;
-    color : #FFFFFF;
+    background-color: var(--dark-violet);
+    color : var(--white);
     border-radius: 10px;
-    box-shadow: #000000 5px 5px 5px 1px; 
+    box-shadow: var(--black) 5px 5px 5px 1px; 
     padding : 10px;
     font-size : 2em;
     text-align: center;
@@ -48,14 +59,14 @@ h2 {
 }
 
 .bouton:hover {
-    background-color: #C299FF;
-    color : #000000
+    background-color: var(--light-violet);
+    color : var(--black);
 }
 
 /* Header */
 
 header {
-    background-color: #707070;
+    background-color: var(--dark-gray);
     padding : 20px;
     display : flex;
     flex-direction : row;
@@ -101,9 +112,9 @@ main {
 /* Section */
 
 section {
-    background-color: #E0E0E0;
+    background-color: var(--light-gray);
     border-radius: 10px;
-    box-shadow: #000000 5px 5px 5px 1px; 
+    box-shadow: var(--black) 5px 5px 5px 1px; 
     padding : 20px;
     margin-top : 20px;
 }
@@ -145,7 +156,7 @@ section iframe {
 } 
 
 .section-text ul li {
-    color : #000000;
+    color : var(--black);
     text-align: left;
     font-size: 1.5em;
     margin:auto;
@@ -155,7 +166,7 @@ section iframe {
 }
 
 .section-text p {
-    color : #000000;
+    color : var(--black);
     text-align: center;
     font-size: 1.5em;
     margin:auto;
@@ -165,7 +176,7 @@ section iframe {
 /* detail des documents texte */
 
 .docu p, .docu ul li, td {
-    color : #000000;
+    color : var(--black);
     text-align: justify;
     font-size: 1.5em;
     margin:auto;
@@ -182,7 +193,7 @@ section iframe {
 footer {
     margin-top: 20px;
     padding: 20px;
-    background-color: #707070;
+    background-color: var(--dark-gray);
     display : flex;
     flex-direction : row;
     justify-content: space-around;
@@ -212,7 +223,7 @@ footer {
 
 .footer-element-list a {
     font-size : 1.5em;
-    color : #FFFFFF;
+    color : var(--white);
     font-family: 'SourceSansPro', Arial, serif;
 }
 

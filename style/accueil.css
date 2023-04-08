@@ -1,6 +1,17 @@
+:root {
+    --black : #000000;
+    --white : #FFFFFF;
+    --light-blue : #38C3FF;
+    --dark-blue : #005FFF;
+    --light-violet : #C299FF;
+    --dark-violet : #7B23FF;
+    --light-gray : #C0C0C0;
+    --dark-gray : #707070;
+}
+
 /* Main actualite */
 #actualite ul li {
-    color : #000000;
+    color : var(--black);
     font-size: 1.5em;
     margin:auto;
     font-family: 'SourceSansPro', Arial, serif;
@@ -9,8 +20,8 @@
 
 .important {
     font-weight : bold;
-    background-color: #38C3FF;
-    color : #000000;
+    background-color: var(--light-blue);
+    color : var(--black);
 }
 
 /* Main video */
@@ -27,19 +38,19 @@
     padding : 10px;
     margin : 10px;
     width: 23%;
-    background-color: #7B23FF;
+    background-color: var(--dark-violet);
     border-radius: 20px;
-    box-shadow: #000000 5px 5px 5px 1px; 
-    text-decoration-color: #FFFFFF;
+    box-shadow: var(--black) 5px 5px 5px 1px; 
+    text-decoration-color: var(--white);
 }
 
 .video-card:hover {
-    background-color: #C299FF;
-    text-decoration-color: #000000;
+    background-color: var(--light-violet);
+    text-decoration-color: var(--black);
 }
 
 .video-card:hover h3 {
-    color : #000000
+    color : var(--black);
 }
 
 .video-card img {
@@ -48,7 +59,7 @@
 }
 
 .video-card h3 {
-    color : #FFFFFF;
+    color : var(--white);
     font-size: 1.5em;
     text-align: center;
     font-family: 'SourceSansPro', Arial, serif;
