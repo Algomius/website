@@ -143,7 +143,9 @@ cate = [
                     "titre" : "Programmer en C++"
                 },
                 "videos" : [
-                    { "nomVideo" : "Installation et compilation", "lienVideo" : "https://youtu.be/hNNnJ8CiVvM"}
+                    { "nomVideo" : "Installation et compilation", "lienVideo" : "https://youtu.be/hNNnJ8CiVvM"},
+                    { "nomVideo" : "Premier programme C++", "lienVideo" : "https://youtu.be/Whqy9zFO3Ck"},
+                    { "nomVideo" : "Entrées/sorties en C++", "lienVideo" : "https://youtu.be/ju9zrbYO_ck"}
                 ]
             },
             {
@@ -487,7 +489,9 @@ cate = [
                     { "nomVideo" : "Les tableaux en mémoire", "lienVideo" : "https://youtu.be/-LNDTcTgCm0" },
                     { "nomVideo" : "Liste chaînée simple", "lienVideo" : "https://youtu.be/MdsKDESeTdc" },
                     { "nomVideo" : "Liste doublement chaînée", "lienVideo" : "https://youtu.be/Rhln5r_YT9s"},
-                    { "nomVideo" : "Pile et File", "lienVideo" : "https://youtu.be/zL7RdbRn31c"}
+                    { "nomVideo" : "Pile et File", "lienVideo" : "https://youtu.be/zL7RdbRn31c"},
+                    { "nomVideo" : "Arbres binaires de recherche", "lienVideo" : "https://youtu.be/hDR-UGVYOGU"},
+                    { "nomVideo" : "Arbres rouges et noirs (Partie 1)", "lienVideo" : "https://youtu.be/YXNq_i4HTJ4"}
                 ]
             }
         ]
@@ -545,6 +549,7 @@ cate = [
                     { "nomVideo" : "Modifier le DOM avec Javascript", "lienVideo" : "https://youtu.be/Og1gtPR_n6Q"},
                     { "nomVideo" : "Factoriser avec Javascript", "lienVideo" : "https://youtu.be/x-GhtHbAaAA"},
                     { "nomVideo" : "Séparer les données avec Javascript et JSON", "lienVideo" : "https://youtu.be/C7ClZn1tjqA"},
+                    { "nomVideo" : "Passage de paramètres avec javascript", "lienVideo" : "https://youtu.be/NHH-yqUVwnE"},
                 ]
             },
 
