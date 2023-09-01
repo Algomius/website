@@ -31,27 +31,16 @@ function genererActualite() {
     actualite.appendChild(actuListe);
 }
 
-/* Fonction qui génère les vignettes des catégories */
-function genererVignettes() {
-    /* Vider le contenu de la section vidéo */
-    let video = document.getElementById("video");
-    while (video.firstChild) {
-        video.removeChild(video.firstChild);
-    }  
-
-    /* Ajout du titre h2 dans les vidéos */
-    let videoTitre = document.createElement("h2");
-    videoTitre.textContent = "Vidéo par thème";
-    video.appendChild(videoTitre);
-
+function creationVignette(infos, typeVideo) 
+{
     /* Création de la liste des derniers événements */
     let videoListe = document.createElement("div");
     videoListe.setAttribute("id", "video-list")
 
     /* Parcourir les données d'actualité */
-    for (let categorie of cate) {
+    for (let categorie of infos) {
         let videoListeEle = document.createElement("a");
-        videoListeEle.setAttribute("href", "./video/video.html?categorie=" + categorie.idCate);
+        videoListeEle.setAttribute("href", "./video/video.html?" + typeVideo + "=" + categorie.idCate);
         videoListeEle.classList.add("video-card");
 
         /* Ajout de l'image */
@@ -70,8 +59,41 @@ function genererVignettes() {
         videoListe.appendChild(videoListeEle);
     } 
 
-    video.appendChild(videoListe);
+    return videoListe;
+}
+
+/* Fonction qui génère les vignettes des catégories */
+function genererCategorie() {
+    /* Vider le contenu de la section vidéo */
+    let video = document.getElementById("video");
+    while (video.firstChild) {
+        video.removeChild(video.firstChild);
+    }  
+
+    /* Ajout du titre h2 dans les vidéos */
+    let videoTitre = document.createElement("h2");
+    videoTitre.textContent = "Vidéo par thème";
+    video.appendChild(videoTitre);
+
+    video.appendChild(creationVignette(cate, "categorie"));
+}
+
+/* Fonction qui génère les vignettes des formations */
+function genererFormation() {
+    /* Vider le contenu de la section vidéo */
+    let video = document.getElementById("formation");
+    while (video.firstChild) {
+        video.removeChild(video.firstChild);
+    }  
+
+    /* Ajout du titre h2 dans les vidéos */
+    let videoTitre = document.createElement("h2");
+    videoTitre.textContent = "Formations";
+    video.appendChild(videoTitre);
+
+    video.appendChild(creationVignette(formation, "formation"));
 }
 
 genererActualite();
-genererVignettes();
+genererCategorie();
+genererFormation();

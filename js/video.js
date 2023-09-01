@@ -1,5 +1,5 @@
-function genererPageVideo(categorie) {
-    var cateJSON = cate.find(t=>t.idCate === categorie);
+function genererPageVideo(categorie, data) {
+    var cateJSON = data.find(t=>t.idCate === categorie);
 
     /* Modification des informations du head */
     document.querySelector('meta[name="description"]').setAttribute("content", cateJSON.description);
@@ -61,5 +61,8 @@ const url = new URL(document.location);
 const searchParams = url.searchParams;
 
 if (searchParams.has('categorie')) {
-    genererPageVideo(searchParams.get('categorie'));
+    genererPageVideo(searchParams.get('categorie'), cate);
+}
+else if (searchParams.has('formation')) {
+    genererPageVideo(searchParams.get('formation'), formation);
 }
