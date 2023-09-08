@@ -131,7 +131,13 @@ formation = [
                 "videos" : [
                     { "nomVideo" : "Installation et compilation", "lienVideo" : "https://youtu.be/hNNnJ8CiVvM"},
                     { "nomVideo" : "Premier programme C++", "lienVideo" : "https://youtu.be/Whqy9zFO3Ck"},
-                    { "nomVideo" : "Entrées/sorties en C++", "lienVideo" : "https://youtu.be/ju9zrbYO_ck"}
+                    { "nomVideo" : "Variable et mémoire", "lienVideo" : "https://youtu.be/FRCE1EChv7I"},
+                    { "nomVideo" : "Variable en C++", "lienVideo" : "https://youtu.be/WYSQ81-bW64"},
+                    { "nomVideo" : "Entrées/sorties en C++", "lienVideo" : "https://youtu.be/ju9zrbYO_ck"},
+                    { "nomVideo" : "Opérateurs numériques en C++", "lienVideo" : "https://youtu.be/WRRiET_8Oxo"},
+                    { "nomVideo" : "Opérateurs booléens et bits en C++", "lienVideo" : "https://youtu.be/-TYWcwoJ-aM"},
+                    { "nomVideo" : "Structure conditionnelle (if) en C++", "lienVideo" : "https://youtu.be/pWeU_4KCZLo"},
+                    { "nomVideo" : "Structure itérative (boucle) en C++", "lienVideo" : "https://youtu.be/63pIc93fBuE"}
                 ]
             },
             {
