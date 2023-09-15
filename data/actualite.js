@@ -1,5 +1,29 @@
 actu = [
     {
+        "date" : "15/09/2023",
+        "avantLien" : " : Ajout d'une vidéo sur ",
+        "libLien" : "Les fonctions en C++ ",
+        "cheminLien" : "./video/video.html?categorie=programmation",
+        "lienExterne" : false,
+        "apresLien" : "" 
+    },
+    {
+        "date" : "15/09/2023",
+        "avantLien" : " : Ajout d'une vidéo sur ",
+        "libLien" : "Les pointeurs en C++ ",
+        "cheminLien" : "./video/video.html?categorie=programmation",
+        "lienExterne" : false,
+        "apresLien" : "" 
+    },
+    {
+        "date" : "15/09/2023",
+        "avantLien" : " : Ajout d'une vidéo sur ",
+        "libLien" : "Les tableaux en C++ ",
+        "cheminLien" : "./video/video.html?categorie=programmation",
+        "lienExterne" : false,
+        "apresLien" : "" 
+    },
+    {
         "date" : "08/09/2023",
         "avantLien" : " : Ajout d'une vidéo sur ",
         "libLien" : "les boucles en C++ ",

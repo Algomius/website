@@ -133,6 +133,7 @@ cate = [
                     { "nomVideo" : "Structure conditionnelle", "lienVideo" : "https://youtu.be/75aUc4R2GdA"},
                     { "nomVideo" : "Les boucles", "lienVideo" : "https://youtu.be/euiip1cCna0" },
                     { "nomVideo" : "Les fonctions", "lienVideo" : "https://youtu.be/c3GywHt7Kdg"}
+
                 ]
             },
             {
@@ -151,7 +152,10 @@ cate = [
                     { "nomVideo" : "Opérateurs numériques en C++", "lienVideo" : "https://youtu.be/WRRiET_8Oxo"},
                     { "nomVideo" : "Opérateurs booléens et bits en C++", "lienVideo" : "https://youtu.be/-TYWcwoJ-aM"},
                     { "nomVideo" : "Structure conditionnelle (if) en C++", "lienVideo" : "https://youtu.be/pWeU_4KCZLo"},
-                    { "nomVideo" : "Structure itérative (boucle) en C++", "lienVideo" : "https://youtu.be/63pIc93fBuE"}
+                    { "nomVideo" : "Structure itérative (boucle) en C++", "lienVideo" : "https://youtu.be/63pIc93fBuE"},
+                    { "nomVideo" : "Tableaux en C++", "lienVideo" : "https://youtu.be/T_kxfFmsZ1A"},
+                    { "nomVideo" : "Pointeurs en C++", "lienVideo" : "https://youtu.be/j0wFqwKqIwI"},
+                    { "nomVideo" : "Fonctions en C++", "lienVideo" : "https://youtu.be/bQbJ_9uyWdQ"}
                 ]
             },
             {
