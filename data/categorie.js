@@ -18,6 +18,21 @@ cate = [
                     "titre" : "Introduction à l'algorithmie"
                 },
                 "videos" : [
+                    { "nomVideo" : "Tour d'horizon des langages de programmation", "lienVideo" : "https://youtu.be/df8CZP8I8v4" },
+                    { "nomVideo" : "Initiation à l'algorithmie", "lienVideo" : "https://youtu.be/KSaPL6dJAhs" },
+                    { "nomVideo" : "Variables et types", "lienVideo" : "https://youtu.be/yfQbNRehGvA" },
+                    { "nomVideo" : "Instructions élémentaires", "lienVideo" : "https://youtu.be/r87FsitsRDs" },
+                    { "nomVideo" : "Structure condiotionnelle", "lienVideo" : "https://youtu.be/ixZkMlX7TGU" }
+                ]
+            },
+            {
+                "nomSection" : "Introduction à l'algorithmie - Ancienne version",
+                "imageSection" : {
+                    "source" : "../images/algorithmie/intro-miniature.png",
+                    "alt" : "Tout part d'une idée",
+                    "titre" : "Introduction à l'algorithmie"
+                },
+                "videos" : [
                     { "nomVideo" : "Qu'est-ce qu'un algorithme ?", "lienVideo" : "https://youtu.be/DK9VA_jWu7U" },
                     { "nomVideo" : "Les conditions", "lienVideo" : "https://youtu.be/FB1ibDQQkDA" },
                     { "nomVideo" : "Les fonctions", "lienVideo" : "https://youtu.be/HufzAt4RhaU" },
@@ -133,29 +148,6 @@ cate = [
                     { "nomVideo" : "Structure conditionnelle", "lienVideo" : "https://youtu.be/75aUc4R2GdA"},
                     { "nomVideo" : "Les boucles", "lienVideo" : "https://youtu.be/euiip1cCna0" },
                     { "nomVideo" : "Les fonctions", "lienVideo" : "https://youtu.be/c3GywHt7Kdg"}
-
-                ]
-            },
-            {
-                "nomSection" : "Programmation C++",
-                "imageSection" : {
-                    "source" : "../images/programmation/C++-miniature.png",
-                    "alt" : "Programmer en C++",
-                    "titre" : "Programmer en C++"
-                },
-                "videos" : [
-                    { "nomVideo" : "Installation et compilation", "lienVideo" : "https://youtu.be/hNNnJ8CiVvM"},
-                    { "nomVideo" : "Premier programme C++", "lienVideo" : "https://youtu.be/Whqy9zFO3Ck"},
-                    { "nomVideo" : "Variable et mémoire", "lienVideo" : "https://youtu.be/FRCE1EChv7I"},
-                    { "nomVideo" : "Variable en C++", "lienVideo" : "https://youtu.be/WYSQ81-bW64"},
-                    { "nomVideo" : "Entrées/sorties en C++", "lienVideo" : "https://youtu.be/ju9zrbYO_ck"},
-                    { "nomVideo" : "Opérateurs numériques en C++", "lienVideo" : "https://youtu.be/WRRiET_8Oxo"},
-                    { "nomVideo" : "Opérateurs booléens et bits en C++", "lienVideo" : "https://youtu.be/-TYWcwoJ-aM"},
-                    { "nomVideo" : "Structure conditionnelle (if) en C++", "lienVideo" : "https://youtu.be/pWeU_4KCZLo"},
-                    { "nomVideo" : "Structure itérative (boucle) en C++", "lienVideo" : "https://youtu.be/63pIc93fBuE"},
-                    { "nomVideo" : "Tableaux en C++", "lienVideo" : "https://youtu.be/T_kxfFmsZ1A"},
-                    { "nomVideo" : "Pointeurs en C++", "lienVideo" : "https://youtu.be/j0wFqwKqIwI"},
-                    { "nomVideo" : "Fonctions en C++", "lienVideo" : "https://youtu.be/bQbJ_9uyWdQ"}
                 ]
             },
             {
@@ -607,6 +599,41 @@ cate = [
                     { "nomVideo" : "Structure conditionnelle", "lienVideo" : "https://youtu.be/nktooeQ8JM8" },
                     { "nomVideo" : "Boucles", "lienVideo" : "https://youtu.be/Lrcrzg0y0No"},
                     { "nomVideo" : "Fonctions", "lienVideo" : "https://youtu.be/rgfxpM29XsU"}
+                ]
+            }
+        ]
+    },
+    {
+        "idCate" : "ccpp",
+        "nomCate" : "Programmation C et C++",
+        "description" : "Initiation à la programmation avec les langages C et C++",
+        "titre" : "Algomius : Programmation C et C++",
+        "image" : {
+            "source" : "./images/programmation/C++-miniature.png",
+            "alt" : "Lecture du manuel C++",
+            "titre" : "Programmation C et C++"
+        },
+        "sections" : [
+            {
+                "nomSection" : "Programmation C++",
+                "imageSection" : {
+                    "source" : "../images/programmation/C++-miniature.png",
+                    "alt" : "Programmer en C++",
+                    "titre" : "Programmer en C++"
+                },
+                "videos" : [
+                    { "nomVideo" : "Installation et compilation", "lienVideo" : "https://youtu.be/hNNnJ8CiVvM"},
+                    { "nomVideo" : "Premier programme C++", "lienVideo" : "https://youtu.be/Whqy9zFO3Ck"},
+                    { "nomVideo" : "Variable et mémoire", "lienVideo" : "https://youtu.be/FRCE1EChv7I"},
+                    { "nomVideo" : "Variable en C++", "lienVideo" : "https://youtu.be/WYSQ81-bW64"},
+                    { "nomVideo" : "Entrées/sorties en C++", "lienVideo" : "https://youtu.be/ju9zrbYO_ck"},
+                    { "nomVideo" : "Opérateurs numériques en C++", "lienVideo" : "https://youtu.be/WRRiET_8Oxo"},
+                    { "nomVideo" : "Opérateurs booléens et bits en C++", "lienVideo" : "https://youtu.be/-TYWcwoJ-aM"},
+                    { "nomVideo" : "Structure conditionnelle (if) en C++", "lienVideo" : "https://youtu.be/pWeU_4KCZLo"},
+                    { "nomVideo" : "Structure itérative (boucle) en C++", "lienVideo" : "https://youtu.be/63pIc93fBuE"},
+                    { "nomVideo" : "Tableaux en C++", "lienVideo" : "https://youtu.be/T_kxfFmsZ1A"},
+                    { "nomVideo" : "Pointeurs en C++", "lienVideo" : "https://youtu.be/j0wFqwKqIwI"},
+                    { "nomVideo" : "Fonctions en C++", "lienVideo" : "https://youtu.be/bQbJ_9uyWdQ"}
                 ]
             }
         ]

@@ -122,6 +122,21 @@ formation = [
         },
         "sections" : [
             {
+                "nomSection" : "Introduction à l'algorithmie",
+                "imageSection" : {
+                    "source" : "../images/algorithmie/intro-miniature.png",
+                    "alt" : "Tout part d'une idée",
+                    "titre" : "Introduction à l'algorithmie"
+                },
+                "videos" : [
+                    { "nomVideo" : "Tour d'horizon des langages de programmation", "lienVideo" : "https://youtu.be/df8CZP8I8v4" },
+                    { "nomVideo" : "Initiation à l'algorithmie", "lienVideo" : "https://youtu.be/KSaPL6dJAhs" },
+                    { "nomVideo" : "Variables et types", "lienVideo" : "https://youtu.be/yfQbNRehGvA" },
+                    { "nomVideo" : "Instructions élémentaires", "lienVideo" : "https://youtu.be/r87FsitsRDs" },
+                    { "nomVideo" : "Structure condiotionnelle", "lienVideo" : "https://youtu.be/ixZkMlX7TGU" }
+                ]
+            },
+            {
                 "nomSection" : "C++",
                 "imageSection" : {
                     "source" : "../images/programmation/C++-miniature.png",
@@ -159,7 +174,50 @@ formation = [
                     { "nomVideo" : "Exemple complet - Diagramme de classes", "lienVideo" : "https://youtu.be/tyufwvmip0Y"},
                     { "nomVideo" : "Exemple complet - Diagramme des cas d'utilisation", "lienVideo" : "https://youtu.be/EvV6O3ZUyAM"}
                 ]
-            }
+            },
+            {
+                "nomSection" : "Analyse des bases de données - Merise",
+                "imageSection" : {
+                    "source" : "../images/bdd/analyse-miniature.png",
+                    "alt" : "On essaie de retrouver les propriétés des nombres",
+                    "titre" : "Analyse des bases de données"
+                },
+                "videos" : [
+                    { "nomVideo" : "Dictionnaire des données", "lienVideo" : "https://youtu.be/4JXWaRfQ7Vs" },
+                    { "nomVideo" : "Modèle conceptuel des données", "lienVideo" : "https://youtu.be/DKYeJKoY5hI" },
+                    { "nomVideo" : "Modèle logique et physique", "lienVideo" : "https://youtu.be/DKYeJKoY5hI" },
+                    { "nomVideo" : "Les 5 formes normales", "lienVideo" : "https://youtu.be/0MwBeTq07JM"}
+                ]
+            },
+            {
+                "nomSection" : "Bases de données MySQL",
+                "imageSection" : {
+                    "source" : "../images/bdd/mysql-miniature.png",
+                    "alt" : "Installation de MySQL",
+                    "titre" : "Bases de données MySQL"
+                },
+                "videos" : [
+                    { "nomVideo" : "Installation MySql", "lienVideo" : "https://youtu.be/xC15YCVyKMs" },
+                    { "nomVideo" : "Langage de définition des données", "lienVideo" : "https://youtu.be/IZNVhUAJ10s" },
+                    { "nomVideo" : "Langage de manipulation des données", "lienVideo" : "https://youtu.be/Nq2wiBH5HjM" },
+                    { "nomVideo" : "Jointure et sous-requête", "lienVideo" : "https://youtu.be/hjtN9LHtIrQ"},
+                    { "nomVideo" : "Index", "lienVideo" : "https://youtu.be/QXm0F5c2azM" },
+                    { "nomVideo" : "Fonctions scalaires", "lienVideo" : "https://youtu.be/SjGsGKEmcko" },
+                    { "nomVideo" : "Agrégation et regroupement", "lienVideo" : "https://youtu.be/G6mCT5quWmw" },
+                    { "nomVideo" : "MySQL avec Python", "lienVideo" : "https://youtu.be/fxrZtbGArfc"},
+                    { "nomVideo" : "Gestion des utilisateurs", "lienVideo" : "https://youtu.be/PHV1vrXCQUI" },
+                    { "nomVideo" : "Mot de passe et hachage", "lienVideo" : "https://youtu.be/nemp83798OY" },
+                    { "nomVideo" : "Transactions, commit, rollback", "lienVideo" : "https://youtu.be/HLRLXAw9JX0" },
+                    { "nomVideo" : "Accès concurrents et verrous", "lienVideo" : "https://youtu.be/XOHkQktGP68"},
+                    { "nomVideo" : "Requêtes préparées", "lienVideo" : "https://youtu.be/tfFwY39wd94" },
+                    { "nomVideo" : "Tables temporaires", "lienVideo" : "https://youtu.be/e_mVH2zYHjE" },
+                    { "nomVideo" : "Vues", "lienVideo" : "https://youtu.be/pBA4ftMCvqA" },
+                    { "nomVideo" : "Triggers en MySQL", "lienVideo" : "https://youtu.be/zEaZcK4KPjE"},
+                    { "nomVideo" : "Procédures stockées", "lienVideo" : "https://youtu.be/fqZAjPoWflw" },
+                    { "nomVideo" : "Procédures stockées structurées", "lienVideo" : "https://youtu.be/2G9KAQVOt0Q" },
+                    { "nomVideo" : "Gestion des erreurs", "lienVideo" : "https://youtu.be/GgMTGkAMu90" }
+                ]
+            },
         ]
     },
 
