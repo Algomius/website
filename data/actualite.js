@@ -1,5 +1,37 @@
 actu = [
     {
+        "date" : "17/10/2023",
+        "avantLien" : " : Ajout d'une vidéo pour expliquer ",
+        "libLien" : "les entrées et sorties en C",
+        "cheminLien" : "./video/video.html?categorie=ccpp",
+        "lienExterne" : false,
+        "apresLien" : "" 
+    },
+    {
+        "date" : "16/10/2023",
+        "avantLien" : " : Ajout d'une vidéo pour expliquer ",
+        "libLien" : "les variables et les types en C",
+        "cheminLien" : "./video/video.html?categorie=ccpp",
+        "lienExterne" : false,
+        "apresLien" : "" 
+    },
+    {
+        "date" : "15/10/2023",
+        "avantLien" : " : Ajout d'une vidéo pour expliquer ",
+        "libLien" : "les classes en C++",
+        "cheminLien" : "./video/video.html?categorie=ccpp",
+        "lienExterne" : false,
+        "apresLien" : "" 
+    },
+    {
+        "date" : "14/10/2023",
+        "avantLien" : " : Ajout d'une vidéo pour expliquer ",
+        "libLien" : "les structures de données en C++",
+        "cheminLien" : "./video/video.html?categorie=ccpp",
+        "lienExterne" : false,
+        "apresLien" : "" 
+    },
+    {
         "date" : "13/10/2023",
         "avantLien" : " : Ajout d'une vidéo pour expliquer ",
         "libLien" : "les structures conditionnelles en algorithmie",
@@ -44,30 +76,6 @@ actu = [
         "avantLien" : " : Ajout d'une vidéo pour ",
         "libLien" : "Un tour d'horizon des langages de programmation",
         "cheminLien" : "./video/video.html?categorie=algorithmie",
-        "lienExterne" : false,
-        "apresLien" : "" 
-    },
-    {
-        "date" : "15/09/2023",
-        "avantLien" : " : Ajout d'une vidéo sur ",
-        "libLien" : "Les fonctions en C++ ",
-        "cheminLien" : "./video/video.html?categorie=programmation",
-        "lienExterne" : false,
-        "apresLien" : "" 
-    },
-    {
-        "date" : "15/09/2023",
-        "avantLien" : " : Ajout d'une vidéo sur ",
-        "libLien" : "Les pointeurs en C++ ",
-        "cheminLien" : "./video/video.html?categorie=programmation",
-        "lienExterne" : false,
-        "apresLien" : "" 
-    },
-    {
-        "date" : "15/09/2023",
-        "avantLien" : " : Ajout d'une vidéo sur ",
-        "libLien" : "Les tableaux en C++ ",
-        "cheminLien" : "./video/video.html?categorie=programmation",
         "lienExterne" : false,
         "apresLien" : "" 
     }

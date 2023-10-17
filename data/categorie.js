@@ -635,6 +635,30 @@ cate = [
                     { "nomVideo" : "Pointeurs en C++", "lienVideo" : "https://youtu.be/j0wFqwKqIwI"},
                     { "nomVideo" : "Fonctions en C++", "lienVideo" : "https://youtu.be/bQbJ_9uyWdQ"}
                 ]
+            },
+            {
+                "nomSection" : "Programmation orientée objet en C++",
+                "imageSection" : {
+                    "source" : "../images/C/2. Classe.png",
+                    "alt" : "Programmer en objet en C++",
+                    "titre" : "Programmer en objet en C++"
+                },
+                "videos" : [
+                    { "nomVideo" : "Structures de données", "lienVideo" : "https://youtu.be/dlbQ3WEYkTI"},
+                    { "nomVideo" : "Classes", "lienVideo" : "https://youtu.be/SaL2Nn3hdIY"}
+                ]
+            },
+            {
+                "nomSection" : "Programmation en C",
+                "imageSection" : {
+                    "source" : "../images/C/1. variables et types.png",
+                    "alt" : "Gestion de la mémoire en C",
+                    "titre" : "Programmer en C"
+                },
+                "videos" : [
+                    { "nomVideo" : "Variables et types", "lienVideo" : "https://youtu.be/qLoHUiy2tzo"},
+                    { "nomVideo" : "Entrées et sorties", "lienVideo" : "https://youtu.be/liCqANpzzt8"}
+                ]
             }
         ]
     }
