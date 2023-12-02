@@ -22,7 +22,9 @@ cate = [
                     { "nomVideo" : "Initiation à l'algorithmie", "lienVideo" : "https://youtu.be/KSaPL6dJAhs" },
                     { "nomVideo" : "Variables et types", "lienVideo" : "https://youtu.be/yfQbNRehGvA" },
                     { "nomVideo" : "Instructions élémentaires", "lienVideo" : "https://youtu.be/r87FsitsRDs" },
-                    { "nomVideo" : "Structure condiotionnelle", "lienVideo" : "https://youtu.be/ixZkMlX7TGU" }
+                    { "nomVideo" : "Structure conditionnelle", "lienVideo" : "https://youtu.be/ixZkMlX7TGU" },
+                    { "nomVideo" : "Structure itérative", "lienVideo" : "https://youtu.be/6qssQveYzaU" },
+                    { "nomVideo" : "Tableaux", "lienVideo" : "https://youtu.be/l5XQSY6TQwM" }
                 ]
             },
             {
@@ -122,7 +124,7 @@ cate = [
     {
         "idCate" : "programmation",
         "nomCate" : "Programmation",
-        "description" : "Initiation à la programmation avec Python, C++",
+        "description" : "Initiation à la programmation avec Python",
         "titre" : "Algomius : Programmation, compilation",
         "image" : {
             "source" : "./images/programmation/python-miniature.png",
@@ -645,7 +647,10 @@ cate = [
                 },
                 "videos" : [
                     { "nomVideo" : "Structures de données", "lienVideo" : "https://youtu.be/dlbQ3WEYkTI"},
-                    { "nomVideo" : "Classes", "lienVideo" : "https://youtu.be/SaL2Nn3hdIY"}
+                    { "nomVideo" : "Classes", "lienVideo" : "https://youtu.be/SaL2Nn3hdIY"},
+                    { "nomVideo" : "Constructeurs", "lienVideo" : "https://youtu.be/dcyc9ZUKFhA"},
+                    { "nomVideo" : "L'héritage", "lienVideo" : "https://youtu.be/uPkOvByVpfU"},
+                    { "nomVideo" : "Compilation séparée - Makefile", "lienVideo" : "https://youtu.be/Pi6EqGUQ4W0"}
                 ]
             },
             {
