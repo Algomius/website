@@ -1,5 +1,13 @@
 actu = [
     {
+        "date" : "08/12/2023",
+        "avantLien" : " : Ajout d'une vidéo pour expliquer ",
+        "libLien" : "les fonctions en algorithmie",
+        "cheminLien" : "./video/video.html?categorie=algorithmie",
+        "lienExterne" : false,
+        "apresLien" : "" 
+    },
+    {
         "date" : "02/12/2023",
         "avantLien" : " : Ajout d'une vidéo pour expliquer ",
         "libLien" : "les tableaux en algorithmie",

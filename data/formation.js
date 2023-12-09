@@ -86,10 +86,14 @@ formation = [
                     "titre" : "Introduction à l'algorithmie"
                 },
                 "videos" : [
-                    { "nomVideo" : "Qu'est-ce qu'un algorithme ?", "lienVideo" : "https://youtu.be/DK9VA_jWu7U" },
-                    { "nomVideo" : "Les conditions", "lienVideo" : "https://youtu.be/FB1ibDQQkDA" },
-                    { "nomVideo" : "Les fonctions", "lienVideo" : "https://youtu.be/HufzAt4RhaU" },
-                    { "nomVideo" : "Les tableaux", "lienVideo" : "https://youtu.be/Ues0PvVh2Ps"}
+                    { "nomVideo" : "Tour d'horizon des langages de programmation", "lienVideo" : "https://youtu.be/df8CZP8I8v4" },
+                    { "nomVideo" : "Initiation à l'algorithmie", "lienVideo" : "https://youtu.be/KSaPL6dJAhs" },
+                    { "nomVideo" : "Variables et types", "lienVideo" : "https://youtu.be/yfQbNRehGvA" },
+                    { "nomVideo" : "Instructions élémentaires", "lienVideo" : "https://youtu.be/r87FsitsRDs" },
+                    { "nomVideo" : "Structure conditionnelle", "lienVideo" : "https://youtu.be/ixZkMlX7TGU" },
+                    { "nomVideo" : "Structure itérative", "lienVideo" : "https://youtu.be/6qssQveYzaU" },
+                    { "nomVideo" : "Tableaux", "lienVideo" : "https://youtu.be/ZK0QFvwea9o" },
+                    { "nomVideo" : "Fonctions", "lienVideo" : "https://youtu.be/Ke1JCyMjktY" }
                 ]
             },
             {
@@ -135,7 +139,8 @@ formation = [
                     { "nomVideo" : "Instructions élémentaires", "lienVideo" : "https://youtu.be/r87FsitsRDs" },
                     { "nomVideo" : "Structure conditionnelle", "lienVideo" : "https://youtu.be/ixZkMlX7TGU" },
                     { "nomVideo" : "Structure itérative", "lienVideo" : "https://youtu.be/6qssQveYzaU" },
-                    { "nomVideo" : "Tableaux", "lienVideo" : "https://youtu.be/l5XQSY6TQwM" }
+                    { "nomVideo" : "Tableaux", "lienVideo" : "https://youtu.be/ZK0QFvwea9o" },
+                    { "nomVideo" : "Fonctions", "lienVideo" : "https://youtu.be/Ke1JCyMjktY" }
                 ]
             },
             {
