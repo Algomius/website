@@ -19,7 +19,9 @@ function genererPageVideo(categorie, data) {
     let indiceSection = 1;
 
     /* Ajout des sections */
-    for (let s of cateJSON.sections) {
+    for (let c of cateJSON.sections) {
+        var secJSON = sectionData.find(s=>s.idSection === c);
+        console.log(secJSON);
         let section = document.createElement("section");
         if (indiceSection % 2 == 1) {
             section.classList.add("section-impair");
@@ -31,21 +33,21 @@ function genererPageVideo(categorie, data) {
         /* Image de la section */
         let image = document.createElement("img");
         image.classList.add("section-img");
-        image.setAttribute("src", s.imageSection.source);
-        image.setAttribute("alt", s.imageSection.alt);
-        image.setAttribute("title", s.imageSection.titre);
+        image.setAttribute("src", secJSON.imageSection.source);
+        image.setAttribute("alt", secJSON.imageSection.alt);
+        image.setAttribute("title", secJSON.imageSection.titre);
         section.appendChild(image);
 
         /* Texte de la section */
         let texte = document.createElement("div");
         texte.classList.add("section-text");
         let texteTitre = document.createElement("h2");
-        texteTitre.textContent = s.nomSection;
+        texteTitre.textContent = secJSON.nomSection;
         texte.appendChild(texteTitre);
 
         let texteListe = document.createElement("ul");
 
-        for (let v of s.videos) {
+        for (let v of secJSON.videos) {
             let texteElement = document.createElement("li");
             texteElement.innerHTML = "<a href=" + v.lienVideo + " target=\"_blank\" rel=\"noopener noreferrer\">" + v.nomVideo + "</a>";
             texteListe.appendChild(texteElement);
