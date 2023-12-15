@@ -586,4 +586,16 @@ sectionData = [
         { "nomVideo" : "Exercice sur la théorie des ensembles", "lienVideo" : "https://youtu.be/DaWMNSvYvzo"},
         { "nomVideo" : "Révision des graphes", "lienVideo" : "https://youtu.be/9kuwSTmcw7Y"}
     ]
-}];
+},
+{
+    "idSection" : "git",
+    "nomSection" : "Git",
+    "imageSection" : {
+        "source" : "../images/Versionning/GIT-Intro.png",
+        "alt" : "Présentation du schéma des commandes GIT",
+        "titre" : "Git"
+    },
+    "videos" : [
+        { "nomVideo" : "Installation et commandes de base", "lienVideo" : "https://youtu.be/fW8HPOJXxtQ" }
+    ]
+},];

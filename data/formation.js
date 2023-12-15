@@ -21,7 +21,7 @@ formation = [
             "alt" : "Un individu qui lit un livre sur le C++",
             "titre" : "Programme de codage du BTS SN - BTS CIEL"
         },
-        "sections" : [ "algoInit", "progCPP", "progCPPPOO", "progC", "UMLDiagrammes", "UMLProjet", "BDDMerise", "BDDSQL" ]
+        "sections" : [ "algoInit", "progCPP", "progCPPPOO", "progC", "UMLDiagrammes", "UMLProjet", "BDDMerise", "BDDSQL", "git" ]
     },
     {
         "idCate" : "m2i",

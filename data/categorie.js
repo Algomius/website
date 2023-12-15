@@ -12,16 +12,16 @@ cate = [
         "sections" : ["algoInit", "algoTri", "algoOriginaux", "algoGraphe", "algoLoupe"]
     },
     {
-        "idCate" : "programmation",
-        "nomCate" : "Programmation",
+        "idCate" : "python",
+        "nomCate" : "Programmation Python",
         "description" : "Initiation à la programmation avec Python",
-        "titre" : "Algomius : Programmation, compilation",
+        "titre" : "Algomius : Programmation python",
         "image" : {
             "source" : "./images/programmation/python-miniature.png",
-            "alt" : "Une analyse de la base de données",
-            "titre" : "Langages de programmation"
+            "alt" : "On installe l'interprêteur Python",
+            "titre" : "Langages de programmation Python"
         },
-        "sections" : [ "progPython", "progTests" ]
+        "sections" : [ "progPython" ]
     },
     {
         "idCate" : "mathematiques",
@@ -106,5 +106,17 @@ cate = [
             "titre" : "Programmation C et C++"
         },
         "sections" : [ "progCPP", "progCPPPOO", "progC" ]
+    },
+    {
+        "idCate" : "outils",
+        "nomCate" : "Les outils du développeur",
+        "description" : "Les outils bien utiles aux développeurs",
+        "titre" : "Algomius : Outils du développeur",
+        "image" : {
+            "source" : "./images/Versionning/GIT-Intro.png",
+            "alt" : "Schéma des commandes de GIT",
+            "titre" : "Les outils du développeur"
+        },
+        "sections" : [ "git", "progTests"]
     }
 ];

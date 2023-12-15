@@ -1,5 +1,13 @@
 actu = [
     {
+        "date" : "15/12/2023",
+        "avantLien" : " : Ajout d'une vidéo pour expliquer ",
+        "libLien" : "les bases de GIT et Github",
+        "cheminLien" : "./video/video.html?categorie=outils",
+        "lienExterne" : false,
+        "apresLien" : "" 
+    },
+    {
         "date" : "08/12/2023",
         "avantLien" : " : Ajout d'une vidéo pour expliquer ",
         "libLien" : "les fonctions en algorithmie",
