@@ -538,7 +538,9 @@ sectionData = [
         { "nomVideo" : "Structure itérative (boucle) en C++", "lienVideo" : "https://youtu.be/63pIc93fBuE"},
         { "nomVideo" : "Tableaux en C++", "lienVideo" : "https://youtu.be/T_kxfFmsZ1A"},
         { "nomVideo" : "Pointeurs en C++", "lienVideo" : "https://youtu.be/j0wFqwKqIwI"},
-        { "nomVideo" : "Fonctions en C++", "lienVideo" : "https://youtu.be/bQbJ_9uyWdQ"}
+        { "nomVideo" : "Fonctions en C++", "lienVideo" : "https://youtu.be/bQbJ_9uyWdQ"},
+        { "nomVideo" : "Fichiers texte en C++", "lienVideo" : "https://youtu.be/yTMDckec6nA"},
+        { "nomVideo" : "Fichiers binaires en C++", "lienVideo" : "https://youtu.be/upPsIIxBCd8"}
     ]
 },
 {
@@ -596,6 +598,7 @@ sectionData = [
         "titre" : "Git"
     },
     "videos" : [
-        { "nomVideo" : "Installation et commandes de base", "lienVideo" : "https://youtu.be/fW8HPOJXxtQ" }
+        { "nomVideo" : "Installation et commandes de base", "lienVideo" : "https://youtu.be/fW8HPOJXxtQ" },
+        { "nomVideo" : "Branches, Merge et conflits", "lienVideo" : "https://youtu.be/mnyAe5YWVTg" }
     ]
 },];

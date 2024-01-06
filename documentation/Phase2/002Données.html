@@ -21,62 +21,130 @@
         <header id="entete"></header>
 
         <main>
-            <H1>Un peu de dynamisme avec le Javascript</H1>
+            <H1>Externaliser les données</H1>
             <section class="navigation">
-                <a href="./001javascript.html" class="bouton">< Dynamiser avec Javascript></a>
+                <a href="./001javascript.html" class="bouton">< Dynamiser avec Javascript</a>
                 <a href="../documentation.html" class="bouton">Sommaire</a>
-                <a href="./003Paramètres.html" class="bouton">Paramétrer une page html > ></a>
+                <span class="bouton invisible"></span>
             </section>
             <section class="docu">
-                <p>Utiliser uniquement du HTML et du CSS pour créer un site internet permet de rester sur des choses très simples. Cependant, 
-                    le HTML est un langage de balisage statique. Tout ce qui doit être affiché doit être écrit. S'il y a 138 éléments à afficher, 
-                    il faut définir 138 éléments dans le fichier HTML, même s'ils ont tous un aspect identique. C'est assez frustrant en tant que 
-                    développeur car on a l'impression de faire toujours la même chose et de répéter les actions inutilement. Il doit y avoir un moyen 
-                    de réaliser un site sans dupliquer le code mais pour cela nous allons avoir besoin d'un langage de programmation complet : 
-                    Le javascript.
+                <p>On parle souvent de base de données pour stocker les données et vu le nom, ça doit effectivement servir à cela. Cependant,
+                    on oublie parfois qu'il est possible de stocker tout simplement les données dans un fichier. Mais d'ailleurs, pouquoi je 
+                    voudrais stocker les données dans un endroit spécial? Elles ne sont pas biens, juste dans le programme ? Non, les données
+                    ne devraient pas être dans le programme pour plusieurs raisons :
+                    <ul>
+                        <li>On pourrait casser la structure de la page en ajoutant des données</li>
+                        <li>Il est difficile de comprendre ce qui est lié à une donnée et ce qui est lié à un formattage</li>
+                        <li>Il n'est pas possible de sauvegarder les données si elles sont noyées dans du code</li>
+                        <li>Il faut comprendre le langage de programmation pour avoir une chance de modifier les données</li>
+                        <li>Il est possible de garder la même page pour y afficher des données différentes</li>
+                    </ul>
+
                 </p>
             </section>
             <section class="docu">
-                <h2>I. Les limites du HTML et du CSS</h2>
+                <h2>I. Extraire les données pour mieux s'organiser</h2>
+                <p>Depuis le début de ce projet, nous n'avons eu de cesse de le réorganiser. Nous avons créée des dossiers pour les images, les
+                    polices, les miniatures, les fichiers javascript. Cette organisation nous a permi de réagir rapidement à un changement. S'il 
+                    y a un problème avec un élément, nous savons immédiatement où orienter notre recherche. Et jusqu'à présent cela nous a bien aidé. 
+                    Il n'y a pas de raison que ce soit différent avec les données.
+                </p>
+                <p>Imaginons de grands sites comme amazon par exemple. Est-ce qu'Amazon 
+                    possède une page HTML différente pour chaque article vendu ? Heureusement que non, le développement du site serait titanesque.
+                    Pensons également au pauvre développeur qui devrait toute la journée reprendre inlassablement la création d'une page pour un 
+                    nouvel article. Et si la page n'était autre qu'un modèle vide qui pourrait s'adapter aux données. Ce serait quand même beaucoup
+                    plus simple à gérer. On ferait le boulot une fois pour toute et le reste du temps, on pourrait le passer à siroter des Mojito en 
+                    admirant les articles qui prennent place à la perfection dans notre modèle.
+                </p>
+                <p>
+                    A partir du moment où les données ne sont plus dans le code, on pourrait même demander à des non informaticiens de les mettre à jour.
+                    Ce ne serait pas plus compliqué que de remplir un tableau Excel au final. Encore du temps de gagné. On n'imagine pas les trésors
+                    d'imagination pour mettre en place des procédures qui nous permettent d'en faire le moins possible. C'est vraiment un boulot à plein
+                    temps. Nous venons donc de trouver plein de bonnes raisons pour extraire les données, il reste à voir sous quelle forme nous pouvons les
+                    conserver.
+                </p>
 
             </section>
             <section class="docu">
-                <h2>II. Les avantages du javascript</h2>
-
+                <h2>II. Quel format pour nos données ?</h2>
+                <p>
+                    Voila une question crutiale pour la suite de notre développement. Nous allons externaliser les données mais comment les 
+                    sauvegarder ? Encore une fois, appuyons-nous sur notre fainéantise légendaire. Ce que nous cherchons, c'est un format qui ne
+                    soit pas pénible à utiliser. Un format dans lequel on peut sauvegarder facilement de l'information mais aussi pouvoir la récupérer.
+                    Et si ce format pouvait à terme être utilisé pour créer notre base de données, là, il réunirait vraiment tous les avantages.
+                </p>
+                <p>
+                    Au sommet de la pyramide de la simplicité, il y a évidement le fichier texte, simple et classique, accessible directement avec 
+                    le premier bloc-note venu. Si l'accès aux données est simple en lecture comme en écriture, il n'y a pas vraiment de façon de retrouver
+                    la nature de l'information. Il faudrait créer des masques à appliquer sur les lignes et compter les caractères lus pour savoir où 
+                    nous en sommes. C'est beaucoup trop compliqué, on va essayer de trouver plus simple.
+                </p>
+                <p>Un fichier <abbr title="Comma Separated Values">CSV</abbr> pourrait être une bonne alternative. Il est plus structuré que les fichiers 
+                    texte classiques et il permet de récupérer des informations grâce à une gestion de délimiteur. En plus, on peut l'ouvrir et
+                    le modifier directement avec Excel et je pourrai donc toujours dire que je ne sais pas me servir d'Excel pour éviter la corvée
+                    de la mise à jour des données. CSV apporte un mieux par rapport au fichier texte, mais au lieu de compter les lettres, je vais
+                    me retrouver à compter les délimiteurs. Je ne sais pas si je suis gagnant.
+                </p>
+                <p>Pourquoi ne pas se tourner vers un format de fichier structuré : XML ou <abbr title="Javascript Object Notation">JSON</abbr>. Les deux 
+                    types présentent le même avantage à savoir combiner information et signification de l'information. Et puisque je travaille 
+                    déjà avec Javascript, JSON semble tout indiqué. Si JSON est apparu à la base dans le langage Javascript, le format est maintenant
+                    utilisable dans tous les langages de programmation. Il est même possible d'intégrer directement un fichier JSON dans une base de 
+                    données comme MongoDB. Allez, c'est décidé, on prend JSON.
+                </p>
             </section>
             <section class="docu">
-                <h2>Modifier le DOM avec Javascript</h2>
-                <iframe src="https://www.youtube.com/embed/Og1gtPR_n6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h2>II. Externalisé les données avec Javascript et JSON</h2>
+                <iframe src="https://www.youtube.com/embed/C7ClZn1tjqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </section>
             <section class="docu">
-                <h2>III. Le javascript et le <abbr title="Document Object Model">DOM</abbr></h2>
-
+                <h2>III. Ca ressemble à quoi le JSON ?</h2>
+                <p>Le JSON comme son nom l'indique permet de rassembler toutes les informations d'un objet. Vous prenez une classe et vous crééez
+                    une occurence de la classe en valorisant les attributs de classe. Puis, vous prenez tous les attributs de la classe, vous 
+                    mettez un joli ruban autour et PAF (non ça ne fait pas des chocapics) vous avez une structure JSON.
+                </p>
+                <p>
+                    Apprendre un nouveau concept seul, ça peut être douloureux, je vous propose donc de prendre un exemple, exemple qui, je le
+                    rappelle, vaut mieux que 1000 maux. Imaginons que nous avons un client dont le nom est "Doe" et le prénom est "John". La 
+                    représentation sous format JSON de ce client pourrait être :
+                </p>
+                <p>
+                    {<br>
+                        nom : "Doe",<br>
+                        prenom : "John"<br>
+                    }<br>
+                </p>
+                <p>   Oui, d'accord mais si mon client à plusieurs prénoms ? Pas d'inquiétude, JSON a la solution. Si le client a plusieurs prénoms,
+                    c'est que la zone prénom doit contenir plusieurs valeurs, elle doit donc contenir un tableau. 
+                </p>
+                <p>
+                    {<br>
+                        nom : "Doe",<br>
+                        prenom : ["John", "Bob", "Jack"]<br>
+                    }<br>
+                </p>
+                <p> On peut vraiment tout stocker avec JSON, on va donc rester sur ce format.</p>
             </section>
             <section class="docu">
-                <h2>Factoriser une entête avec Javascript</h2>
-                <iframe src="https://www.youtube.com/embed/x-GhtHbAaAA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </section>
-            <section class="docu">
-                <h2>IV. Factoriser grâce au javascript</h2>
-
-
-            </section>
-            <section class="docu">
-                <h2>V. Autres idées à réaliser en javascript</h2>
+                <h2>IV. Autres idées à réaliser</h2>
+                <p>
+                    Maintentant que les données sont externalisées, il plusieurs projets que nous pouvons mettre en place :
+                </p>
+                <ul>
+                    <li>Créer des pages modèles qui vont s'afficher en fonction des données</li>
+                    <li>Mettre en place une base de données côté serveur pour y insérer les données JSON</li>
+                </ul>
             </section>
             <section class="docu">
             <h2>Ressources, inspirations et lectures</h2>
                 <ul>
-                    <li><a href="https://openclassrooms.com/fr/courses/6175841-apprenez-a-programmer-avec-javascript" target="_blank" rel="noopener noreferrer">Apprenez à programmer en Javascript (Openclassrooms)</a></li>
-                    <li><a href="https://openclassrooms.com/fr/courses/7697016-creez-des-pages-web-dynamiques-avec-javascript" target="_blank" rel="noopener noreferrer">Javascript pour le web (Openclassrooms)</a></li>
-                    <li><a href="https://www.youtube.com/watch?v=jS4aFq5-91M" target="_blank" rel="noopener noreferrer">Cours complet javascript en vidéo (freecodecamp - en anglais)</a></li>
-                    <li><a href="https://www.oreilly.com/library/view/javascript-the-definitive/9781491952016/" target="_blank" rel="noopener noreferrer">Manuel de référence en Javascript</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=GpOO5iKzOmY" target="_blank" rel="noopener noreferrer">Cours complet JSON (freecodecamp - en anglais)</a></li>
+                    <li><a href="https://www.json.org/json-fr.html" target="_blank" rel="noopener noreferrer">Site parlant de JSON</a></li>
                 </ul>
             </section>
             <section class="navigation">
-                <a href="./001javascript.html" class="bouton">< Dynamiser avec Javascript></a>
+                <a href="./001javascript.html" class="bouton">< Dynamiser avec Javascript</a>
                 <a href="../documentation.html" class="bouton">Sommaire</a>
-                <a href="./003Paramètres.html" class="bouton">Paramétrer une page html > ></a>
+                <span class="bouton invisible"></span>
             </section>
         </main>
         <footer id="pied"> </footer>

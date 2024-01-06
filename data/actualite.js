@@ -1,5 +1,29 @@
 actu = [
     {
+        "date" : "05/01/2024",
+        "avantLien" : " : Ajout d'une vidéo pour expliquer ",
+        "libLien" : "la manipulation des fichiers binaires en C++",
+        "cheminLien" : "./video/video.html?categorie=ccpp",
+        "lienExterne" : false,
+        "apresLien" : "" 
+    },
+    {
+        "date" : "29/12/2023",
+        "avantLien" : " : Ajout d'une vidéo pour expliquer ",
+        "libLien" : "la manipulation des fichiers textes en C++",
+        "cheminLien" : "./video/video.html?categorie=ccpp",
+        "lienExterne" : false,
+        "apresLien" : "" 
+    },
+    {
+        "date" : "22/12/2023",
+        "avantLien" : " : Ajout d'une vidéo pour expliquer ",
+        "libLien" : "les branches dans GIT",
+        "cheminLien" : "./video/video.html?categorie=outils",
+        "lienExterne" : false,
+        "apresLien" : "" 
+    },
+    {
         "date" : "15/12/2023",
         "avantLien" : " : Ajout d'une vidéo pour expliquer ",
         "libLien" : "les bases de GIT et Github",
