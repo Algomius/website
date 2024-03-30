@@ -540,7 +540,9 @@ sectionData = [
         { "nomVideo" : "Pointeurs en C++", "lienVideo" : "https://youtu.be/j0wFqwKqIwI"},
         { "nomVideo" : "Fonctions en C++", "lienVideo" : "https://youtu.be/bQbJ_9uyWdQ"},
         { "nomVideo" : "Fichiers texte en C++", "lienVideo" : "https://youtu.be/yTMDckec6nA"},
-        { "nomVideo" : "Fichiers binaires en C++", "lienVideo" : "https://youtu.be/upPsIIxBCd8"}
+        { "nomVideo" : "Fichiers binaires en C++", "lienVideo" : "https://youtu.be/upPsIIxBCd8"},
+        { "nomVideo" : "Fichiers CSV en C++", "lienVideo" : "https://youtu.be/8ENHa6VRUDY"},
+        { "nomVideo" : "Gestion des exceptions", "lienVideo" : "https://youtu.be/YJhSOKf2iow"}
     ]
 },
 {
@@ -556,7 +558,8 @@ sectionData = [
         { "nomVideo" : "Classes", "lienVideo" : "https://youtu.be/SaL2Nn3hdIY"},
         { "nomVideo" : "Constructeurs", "lienVideo" : "https://youtu.be/dcyc9ZUKFhA"},
         { "nomVideo" : "L'héritage", "lienVideo" : "https://youtu.be/uPkOvByVpfU"},
-        { "nomVideo" : "Compilation séparée - Makefile", "lienVideo" : "https://youtu.be/Pi6EqGUQ4W0"}
+        { "nomVideo" : "Compilation séparée - Makefile", "lienVideo" : "https://youtu.be/Pi6EqGUQ4W0"},
+        { "nomVideo" : "Surcharge d'opérateur", "lienVideo" : "https://youtu.be/KdAHYPIGCmw"}
     ]
 },
 {
@@ -569,7 +572,27 @@ sectionData = [
     },
     "videos" : [
         { "nomVideo" : "Variables et types", "lienVideo" : "https://youtu.be/qLoHUiy2tzo"},
-        { "nomVideo" : "Entrées et sorties", "lienVideo" : "https://youtu.be/liCqANpzzt8"}
+        { "nomVideo" : "Entrées et sorties", "lienVideo" : "https://youtu.be/liCqANpzzt8"},
+        { "nomVideo" : "Les opérations de base", "lienVideo" : "https://youtu.be/ll-rdaicr5o"},
+        { "nomVideo" : "La structure conditionnelle", "lienVideo" : "https://youtu.be/pC-CwRysIwo"},
+        { "nomVideo" : "La structure itérative", "lienVideo" : "https://youtu.be/soge-tgIUh4"},
+        { "nomVideo" : "Les tableaux", "lienVideo" : "https://youtu.be/EmjxmzcwXVY"},
+        { "nomVideo" : "Les pointeurs", "lienVideo" : "https://youtu.be/JSHz9GB_PVg"},
+        { "nomVideo" : "Les fonctions", "lienVideo" : "https://youtu.be/anTCp0pUTMA"},
+        { "nomVideo" : "Les structures", "lienVideo" : "https://youtu.be/MpgNjncTzPQ"},
+        { "nomVideo" : "Les fichiers", "lienVideo" : "https://youtu.be/16dQCkygr1o"}
+    ]
+},
+{
+    "idSection" : "progSysC",
+    "nomSection" : "Programmation Système en C",
+    "imageSection" : {
+        "source" : "../images/C/Cygwin.png",
+        "alt" : "Programmation système en C",
+        "titre" : "Programmation système en C"
+    },
+    "videos" : [
+        { "nomVideo" : "Système Linux et Cygwin", "lienVideo" : "https://youtu.be/YNbiQfQQHPU"}
     ]
 },
 {

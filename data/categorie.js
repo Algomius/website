@@ -105,7 +105,7 @@ cate = [
             "alt" : "Lecture du manuel C++",
             "titre" : "Programmation C et C++"
         },
-        "sections" : [ "progCPP", "progCPPPOO", "progC" ]
+        "sections" : [ "progCPP", "progCPPPOO", "progC", "progSysC" ]
     },
     {
         "idCate" : "outils",
