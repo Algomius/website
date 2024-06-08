@@ -403,7 +403,10 @@ sectionData = [
     },
     "videos" : [
         { "nomVideo" : "Fichier CSV en Python", "lienVideo" : "https://youtu.be/1YFdy9OxRQU" },
-        { "nomVideo" : "Python et Pandas", "lienVideo" : "https://youtu.be/H_pVrg1_49w"}
+        { "nomVideo" : "Python et Pandas", "lienVideo" : "https://youtu.be/H_pVrg1_49w"},
+        { "nomVideo" : "Algorithme de classification (scikit-learn)", "lienVideo" : "https://youtu.be/3fZQHLdFueI"},
+        { "nomVideo" : "Algorithme de régression (scikit-learn)", "lienVideo" : "https://youtu.be/NhlOTjJbeQc"},
+        { "nomVideo" : "Algorithme de partitionnement (scikit-learn)", "lienVideo" : "https://youtu.be/bov62gmWraA"},
     ]
 },
 {
@@ -592,7 +595,10 @@ sectionData = [
         "titre" : "Programmation système en C"
     },
     "videos" : [
-        { "nomVideo" : "Système Linux et Cygwin", "lienVideo" : "https://youtu.be/YNbiQfQQHPU"}
+        { "nomVideo" : "Système Linux et Cygwin", "lienVideo" : "https://youtu.be/YNbiQfQQHPU"},
+        { "nomVideo" : "Créer un processus avec fork()", "lienVideo" : "https://youtu.be/UoYvW_T1Bbw"},
+        { "nomVideo" : "Appel de commande avec exec()", "lienVideo" : "https://youtu.be/H61EC4CZnx8"},
+        { "nomVideo" : "Variables d'environnement", "lienVideo" : "https://youtu.be/FFu-Bd6uD3w"}
     ]
 },
 {
