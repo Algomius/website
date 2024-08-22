@@ -110,10 +110,10 @@ sectionData = [
         "titre" : "Programmation Python"
     },
     "videos" : [
-        { "nomVideo" : "Installation Python", "lienVideo" : "https://youtu.be/gVa4Q5g6vTc" },
-        { "nomVideo" : "Entrées et sorties", "lienVideo" : "https://youtu.be/7Pa2YbLQ_DE" },
-        { "nomVideo" : "Les variables", "lienVideo" : "https://youtu.be/3ACDFB13aVM" },
-        { "nomVideo" : "Les chaînes de caractères", "lienVideo" : "https://youtu.be/aEqDXRPgFMw"},
+        { "nomVideo" : "Installation Python", "lienVideo" : "https://youtu.be/5MzhGQ8WL70" },
+        { "nomVideo" : "Entrées et sorties", "lienVideo" : "https://youtu.be/uwb5foKJOFw" },
+        { "nomVideo" : "Les variables", "lienVideo" : "https://youtu.be/XUPhj9-8PnA" },
+        { "nomVideo" : "Les chaînes de caractères", "lienVideo" : "https://youtu.be/LfhkMkQbQUc"},
         { "nomVideo" : "Les listes", "lienVideo" : "https://youtu.be/YuijQ66VawQ" },
         { "nomVideo" : "Les dictionnaires", "lienVideo" : "https://youtu.be/-wDmlO04vyU" },
         { "nomVideo" : "Tuple, Set, Frozenset et Deque", "lienVideo" : "https://youtu.be/_yRYYi3h6oA" },
@@ -407,6 +407,8 @@ sectionData = [
         { "nomVideo" : "Algorithme de classification (scikit-learn)", "lienVideo" : "https://youtu.be/3fZQHLdFueI"},
         { "nomVideo" : "Algorithme de régression (scikit-learn)", "lienVideo" : "https://youtu.be/NhlOTjJbeQc"},
         { "nomVideo" : "Algorithme de partitionnement (scikit-learn)", "lienVideo" : "https://youtu.be/bov62gmWraA"},
+        { "nomVideo" : "Classification des champignons (scikit-learn)", "lienVideo" : "https://youtu.be/i-egbk4TCLw"},
+        { "nomVideo" : "KMeans et image (scikit-learn)", "lienVideo" : "https://youtu.be/KzhBSYZmgjs"},
     ]
 },
 {
@@ -598,7 +600,8 @@ sectionData = [
         { "nomVideo" : "Système Linux et Cygwin", "lienVideo" : "https://youtu.be/YNbiQfQQHPU"},
         { "nomVideo" : "Créer un processus avec fork()", "lienVideo" : "https://youtu.be/UoYvW_T1Bbw"},
         { "nomVideo" : "Appel de commande avec exec()", "lienVideo" : "https://youtu.be/H61EC4CZnx8"},
-        { "nomVideo" : "Variables d'environnement", "lienVideo" : "https://youtu.be/FFu-Bd6uD3w"}
+        { "nomVideo" : "Variables d'environnement", "lienVideo" : "https://youtu.be/FFu-Bd6uD3w"},
+        { "nomVideo" : "MQTT, Mosquitto et node-red", "lienVideo" : "https://youtu.be/w2oDUXlSsKE"}
     ]
 },
 {

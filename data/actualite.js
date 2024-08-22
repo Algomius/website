@@ -1,36 +1,36 @@
 actu = [
     {
-        "date" : "07/06/2024",
+        "date" : "05/07/2024",
         "avantLien" : " : Ajout d'une vidéo pour ",
-        "libLien" : "le 4ième anniversaire de la chaîne",
-        "cheminLien" : "https://youtu.be/E_DmsOlgFEs",
-        "lienExterne" : true,
-        "apresLien" : "" 
+        "libLien" : "les chaînes de caractères en Python",
+        "cheminLien" : "./video/video.html?categorie=python",
+        "lienExterne" : false,
+        "apresLien" : "(Mise à jour de la vidéo)" 
     },
     {
-        "date" : "31/05/2024",
-        "avantLien" : " : Ajout d'une vidéo pour expliquer ",
-        "libLien" : "l'utilisation des variables d'environnement en C",
-        "cheminLien" : "./video/video.html?categorie=ccpp",
+        "date" : "05/07/2024",
+        "avantLien" : " : Ajout d'une vidéo pour ",
+        "libLien" : "les variables en Python",
+        "cheminLien" : "./video/video.html?categorie=python",
         "lienExterne" : false,
-        "apresLien" : "" 
+        "apresLien" : "(Mise à jour de la vidéo)" 
     },
     {
-        "date" : "24/05/2024",
-        "avantLien" : " : Ajout d'une vidéo pour expliquer ",
-        "libLien" : "l'appel de commande avec exec()",
-        "cheminLien" : "./video/video.html?categorie=ccpp",
+        "date" : "12/07/2024",
+        "avantLien" : " : Ajout d'une vidéo pour ",
+        "libLien" : "les entrées sorties en Python",
+        "cheminLien" : "./video/video.html?categorie=python",
         "lienExterne" : false,
-        "apresLien" : "" 
+        "apresLien" : "(Mise à jour de la vidéo)" 
     },
     {
-        "date" : "26/04/2024",
-        "avantLien" : " : Ajout d'une vidéo pour expliquer ",
-        "libLien" : "un algorihtme de partionnement (Machine Learning)",
-        "cheminLien" : "./video/video.html?categorie=donnees",
+        "date" : "05/07/2024",
+        "avantLien" : " : Ajout d'une vidéo pour ",
+        "libLien" : "installer l'environnement Python",
+        "cheminLien" : "./video/video.html?categorie=python",
         "lienExterne" : false,
-        "apresLien" : "" 
-    }
+        "apresLien" : "(Mise à jour de la vidéo)" 
+    },
 ];
 
 

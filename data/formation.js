@@ -9,17 +9,17 @@ formation = [
             "alt" : "Un individu avec des lunettes noires regarde la matrice",
             "titre" : "Révisions pour le BTS SIO"
         },
-        "sections" : [ "mathArithmétique", "mathMatrice", "mathLogique", "mathEnsemble", "mathGraphe", "algoInit", "revisionsSIO" ]
+        "sections" : [ "mathArithmétique", "mathMatrice", "mathLogique", "mathEnsemble", "mathGraphe", "algoInit", "progPython", "revisionsSIO" ]
     },
     {
         "idCate" : "btsciel",
-        "nomCate" : "BTS SN - BTS CIEL",
-        "description" : "Programme de codage du BTS SN - BTS CIEL",
-        "titre" : "Algomius : Le coin du BTS SN - BTS CIEL",
+        "nomCate" : "BTS CIEL",
+        "description" : "Programme de codage du BTS CIEL",
+        "titre" : "Algomius : Le coin du BTS CIEL",
         "image" : {
             "source" : "./images/programmation/C++-miniature.png",
             "alt" : "Un individu qui lit un livre sur le C++",
-            "titre" : "Programme de codage du BTS SN - BTS CIEL"
+            "titre" : "Programme de codage du BTS CIEL"
         },
         "sections" : [ "algoInit", "progCPP", "progCPPPOO", "progC", "progSysC", "UMLDiagrammes", "UMLProjet", "BDDMerise", "BDDSQL", "git" ]
     },
