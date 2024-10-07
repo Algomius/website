@@ -1,35 +1,27 @@
 actu = [
     {
-        "date" : "05/07/2024",
-        "avantLien" : " : Ajout d'une vidéo pour ",
-        "libLien" : "les chaînes de caractères en Python",
-        "cheminLien" : "./video/video.html?categorie=python",
+        "date" : "07/10/2024",
+        "avantLien" : " : Ajout d'une vidéo Mathématiques pour ",
+        "libLien" : "les proportions",
+        "cheminLien" : "./video/video.html?categorie=mathematiques",
         "lienExterne" : false,
-        "apresLien" : "(Mise à jour de la vidéo)" 
+        "apresLien" : "" 
     },
     {
-        "date" : "05/07/2024",
-        "avantLien" : " : Ajout d'une vidéo pour ",
-        "libLien" : "les variables en Python",
-        "cheminLien" : "./video/video.html?categorie=python",
+        "date" : "20/09/2024",
+        "avantLien" : " : Ajout d'une vidéo UML pour ",
+        "libLien" : "le diagramme de deploiement",
+        "cheminLien" : "./video/video.html?categorie=uml",
         "lienExterne" : false,
-        "apresLien" : "(Mise à jour de la vidéo)" 
+        "apresLien" : "" 
     },
     {
-        "date" : "12/07/2024",
-        "avantLien" : " : Ajout d'une vidéo pour ",
-        "libLien" : "les entrées sorties en Python",
-        "cheminLien" : "./video/video.html?categorie=python",
+        "date" : "13/09/2024",
+        "avantLien" : " : Ajout d'une vidéo UML pour ",
+        "libLien" : "le diagramme de contexte",
+        "cheminLien" : "./video/video.html?categorie=uml",
         "lienExterne" : false,
-        "apresLien" : "(Mise à jour de la vidéo)" 
-    },
-    {
-        "date" : "05/07/2024",
-        "avantLien" : " : Ajout d'une vidéo pour ",
-        "libLien" : "installer l'environnement Python",
-        "cheminLien" : "./video/video.html?categorie=python",
-        "lienExterne" : false,
-        "apresLien" : "(Mise à jour de la vidéo)" 
+        "apresLien" : "" 
     },
 ];
 

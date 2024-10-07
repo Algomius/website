@@ -24,6 +24,18 @@ formation = [
         "sections" : [ "algoInit", "progCPP", "progCPPPOO", "progC", "progSysC", "UMLDiagrammes", "UMLProjet", "BDDMerise", "BDDSQL", "git" ]
     },
     {
+        "idCate" : "btscg",
+        "nomCate" : "BTS CG",
+        "description" : "Programme de mathématiques du BTS CG",
+        "titre" : "Algomius : Le coin du BTS CG",
+        "image" : {
+            "source" : "./images/mathematiques/proportion-miniature.png",
+            "alt" : "On recherche une propriété dans une population",
+            "titre" : "Révisions pour le BTS CG"
+        },
+        "sections" : [ "InfoChiffree" ]
+    },
+    {
         "idCate" : "m2i",
         "nomCate" : "M2I",
         "description" : "Programme de mathématiques et algorithmie du Master M2I",
@@ -34,6 +46,30 @@ formation = [
             "titre" : "Révisions pour le M2I"
         },
         "sections" : ["algoTri", "algoGraphe", "donneesStructures", "BDDMerise", "BDDSQL", "UMLDiagrammes", "UMLProjet" ]
+    },
+    {
+        "idCate" : "sarii",
+        "nomCate" : "L3 SARII",
+        "description" : "Programme de programmation de la licence PRO SARII",
+        "titre" : "Algomius : Le coin de la licence SARII",
+        "image" : {
+            "source" : "./images/algorithmie/intro-miniature.png",
+            "alt" : "Tout part d'une idée",
+            "titre" : "Révisions pour la licence SARII"
+        },
+        "sections" : ["algoInit", "progC" ]
+    },
+    {
+        "idCate" : "cda",
+        "nomCate" : "CDA",
+        "description" : "Programme de base de données et d'analyse UML pour les Concepteurs Développeurs d'application",
+        "titre" : "Algomius : Le coin des CDA",
+        "image" : {
+            "source" : "./images/UML/intro-miniature.png",
+            "alt" : "Evolution de la programmation",
+            "titre" : "Diagrammes UML"
+        },
+        "sections" : ["BDDMerise", "BDDSQL", "BDDPOSTGRE", "BDDNoSQL" , "UMLDiagrammes", "UMLProjet" ]
     }
 
 ];

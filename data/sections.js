@@ -253,6 +253,18 @@ sectionData = [
     ]
 },
 {
+    "idSection" : "InfoChiffree",
+    "nomSection" : "Traitement de l'information chiffrée",
+    "imageSection" : {
+        "source" : "../images/mathematiques/proportion-miniature.png",
+        "alt" : "Traitement de l'information chiffrée",
+        "titre" : "Information chiffrée"
+    },
+    "videos" : [
+        { "nomVideo" : "Utilisation d'une proportion", "lienVideo" : "https://youtu.be/93vXcluUp1g" }
+    ]
+},
+{
     "idSection" : "UMLDiagrammes",
     "nomSection" : "Diagrammes UML",
     "imageSection" : {
@@ -267,6 +279,8 @@ sectionData = [
         { "nomVideo" : "Diagramme d'état-transition et de temps", "lienVideo" : "https://youtu.be/H01PEfxUht0"},
         { "nomVideo" : "Diagramme des cas d'utilisation", "lienVideo" : "https://youtu.be/o9Q5PxZM2is"},
         { "nomVideo" : "Diagramme des composants", "lienVideo" : "https://youtu.be/aensqaJN9VE"},
+        { "nomVideo" : "Diagramme de contexte", "lienVideo" : "https://youtu.be/V1mWWxQ5j_s"},
+        { "nomVideo" : "Diagramme de déploiement", "lienVideo" : "https://youtu.be/qQaU0wYCy4E"},
         { "nomVideo" : "Du diagramme de classe au C++", "lienVideo" : "https://youtu.be/TDdK64wRhqE"}
     ]
 },
