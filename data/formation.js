@@ -70,6 +70,18 @@ formation = [
             "titre" : "Diagrammes UML"
         },
         "sections" : ["BDDMerise", "BDDSQL", "BDDPOSTGRE", "BDDNoSQL" , "UMLDiagrammes", "UMLProjet" ]
+    },
+    {
+        "idCate" : "dpmn",
+        "nomCate" : "DPMN",
+        "description" : "Programme de base de données et d'algorithmie pour le groupe DPMN",
+        "titre" : "Algomius : Le coin des DPMN",
+        "image" : {
+            "source" : "./images/algorithmie/intro-miniature.png",
+            "alt" : "Tout part d'une idée",
+            "titre" : "Introduction à l'algorithmie"
+        },
+        "sections" : ["algoInit", "BDDMerise", "BDDSQL"]
     }
 
 ];

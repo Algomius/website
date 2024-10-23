@@ -261,7 +261,9 @@ sectionData = [
         "titre" : "Information chiffrée"
     },
     "videos" : [
-        { "nomVideo" : "Utilisation d'une proportion", "lienVideo" : "https://youtu.be/93vXcluUp1g" }
+        { "nomVideo" : "Utilisation d'une proportion", "lienVideo" : "https://youtu.be/93vXcluUp1g" },
+        { "nomVideo" : "Evolutione et variation", "lienVideo" : "https://youtu.be/ijXAbA-B8sY" },
+        { "nomVideo" : "Coefficient multiplicateur", "lienVideo" : "https://youtu.be/dvky4tdrFvc"}
     ]
 },
 {

@@ -1,6 +1,22 @@
 actu = [
     {
-        "date" : "07/10/2024",
+        "date" : "11/10/2024",
+        "avantLien" : " : Ajout d'une vidéo Mathématiques pour ",
+        "libLien" : "le coefficient multiplicateur",
+        "cheminLien" : "./video/video.html?categorie=mathematiques",
+        "lienExterne" : false,
+        "apresLien" : "" 
+    },
+    {
+        "date" : "09/10/2024",
+        "avantLien" : " : Ajout d'une vidéo Mathématiques pour ",
+        "libLien" : "le taux d'évolution",
+        "cheminLien" : "./video/video.html?categorie=mathematiques",
+        "lienExterne" : false,
+        "apresLien" : "" 
+    },
+    {
+        "date" : "04/10/2024",
         "avantLien" : " : Ajout d'une vidéo Mathématiques pour ",
         "libLien" : "les proportions",
         "cheminLien" : "./video/video.html?categorie=mathematiques",
