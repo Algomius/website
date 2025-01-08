@@ -1,44 +1,36 @@
 actu = [
     {
-        "date" : "11/10/2024",
+        "date" : "06/12/2024",
         "avantLien" : " : Ajout d'une vidéo Mathématiques pour ",
-        "libLien" : "le coefficient multiplicateur",
+        "libLien" : "le taux d'évolution moyen",
         "cheminLien" : "./video/video.html?categorie=mathematiques",
         "lienExterne" : false,
         "apresLien" : "" 
     },
     {
-        "date" : "09/10/2024",
+        "date" : "15/11/2024",
         "avantLien" : " : Ajout d'une vidéo Mathématiques pour ",
-        "libLien" : "le taux d'évolution",
+        "libLien" : "les racines nièmes",
         "cheminLien" : "./video/video.html?categorie=mathematiques",
         "lienExterne" : false,
         "apresLien" : "" 
     },
     {
-        "date" : "04/10/2024",
+        "date" : "15/11/2024",
         "avantLien" : " : Ajout d'une vidéo Mathématiques pour ",
-        "libLien" : "les proportions",
+        "libLien" : "de l'utilisation des indices",
         "cheminLien" : "./video/video.html?categorie=mathematiques",
         "lienExterne" : false,
         "apresLien" : "" 
     },
     {
-        "date" : "20/09/2024",
-        "avantLien" : " : Ajout d'une vidéo UML pour ",
-        "libLien" : "le diagramme de deploiement",
-        "cheminLien" : "./video/video.html?categorie=uml",
+        "date" : "08/11/2024",
+        "avantLien" : " : Ajout d'une vidéo Mathématiques pour ",
+        "libLien" : "le taux d'évolution réciproque",
+        "cheminLien" : "./video/video.html?categorie=mathematiques",
         "lienExterne" : false,
         "apresLien" : "" 
-    },
-    {
-        "date" : "13/09/2024",
-        "avantLien" : " : Ajout d'une vidéo UML pour ",
-        "libLien" : "le diagramme de contexte",
-        "cheminLien" : "./video/video.html?categorie=uml",
-        "lienExterne" : false,
-        "apresLien" : "" 
-    },
+    }
 ];
 
 

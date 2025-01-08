@@ -262,8 +262,13 @@ sectionData = [
     },
     "videos" : [
         { "nomVideo" : "Utilisation d'une proportion", "lienVideo" : "https://youtu.be/93vXcluUp1g" },
-        { "nomVideo" : "Evolutione et variation", "lienVideo" : "https://youtu.be/ijXAbA-B8sY" },
-        { "nomVideo" : "Coefficient multiplicateur", "lienVideo" : "https://youtu.be/dvky4tdrFvc"}
+        { "nomVideo" : "Evolution et variation", "lienVideo" : "https://youtu.be/ijXAbA-B8sY" },
+        { "nomVideo" : "Coefficient multiplicateur", "lienVideo" : "https://youtu.be/dvky4tdrFvc"},
+        { "nomVideo" : "Taux d'évolution globale", "lienVideo" : "https://youtu.be/PujpFNOnAd0"},
+        { "nomVideo" : "Taux d'évolution réciproque", "lienVideo" : "https://youtu.be/aPIYDJzMXgo"},
+        { "nomVideo" : "Utiliser un indice", "lienVideo" : "https://youtu.be/3jrQ2lhSbjk"},
+        { "nomVideo" : "Racine nième", "lienVideo" : "https://youtu.be/iLzueWOqRAo"},
+        { "nomVideo" : "Taux d'évolution moyen", "lienVideo" : "https://youtu.be/Ppj_H1dWt_g"}
     ]
 },
 {
