@@ -9,7 +9,7 @@ formation = [
             "alt" : "Un individu avec des lunettes noires regarde la matrice",
             "titre" : "Révisions pour le BTS SIO"
         },
-        "sections" : [ "mathArithmétique", "mathMatrice", "mathLogique", "mathEnsemble", "mathGraphe", "algoInit", "progPython", "revisionsSIO" ]
+        "sections" : [ "mathArithmétique", "mathMatrice", "mathLogiqueSIO", "mathEnsemble", "mathGraphe", "algoInit", "progPython", "revisionsSIO" ]
     },
     {
         "idCate" : "btsciel",
@@ -33,7 +33,7 @@ formation = [
             "alt" : "On recherche une propriété dans une population",
             "titre" : "Révisions pour le BTS CG"
         },
-        "sections" : [ "InfoChiffree" ]
+        "sections" : [ "InfoChiffree", "mathLogiqueCG" ]
     },
     {
         "idCate" : "m2i",

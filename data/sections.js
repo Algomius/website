@@ -167,8 +167,8 @@ sectionData = [
     ]
 },
 {
-    "idSection" : "mathLogique",
-    "nomSection" : "Logique",
+    "idSection" : "mathLogiqueSIO",
+    "nomSection" : "Logique (Version SIO)",
     "imageSection" : {
         "source" : "../images/mathematiques/logique-miniature.png",
         "alt" : "Vous ne pouvez pas refuser la proposition",
@@ -178,6 +178,18 @@ sectionData = [
         { "nomVideo" : "Logique et propositions", "lienVideo" : "https://youtu.be/uuiZ-vlIWhM" },
         { "nomVideo" : "Logique et prédicats", "lienVideo" : "https://youtu.be/4NQY3mO8dfE" },
         { "nomVideo" : "Logique et  algèbre de Boole", "lienVideo" : "https://youtu.be/LSiuMJ3RdqQ" }
+    ]
+},
+{
+    "idSection" : "mathLogiqueCG",
+    "nomSection" : "Logique (Version CG)",
+    "imageSection" : {
+        "source" : "../images/mathematiques/logique-miniature.png",
+        "alt" : "Vous ne pouvez pas refuser la proposition",
+        "titre" : "Logique"
+    },
+    "videos" : [
+        { "nomVideo" : "Logique et propositions", "lienVideo" : "https://youtu.be/RlY0vAnrKmQ" }
     ]
 },
 {

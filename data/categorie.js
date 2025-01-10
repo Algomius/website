@@ -33,7 +33,7 @@ cate = [
             "alt" : "On retrouve les propriétés des nombres",
             "titre" : "Arithmétique"
         },
-        "sections" : ["mathArithmétique", "mathMatrice", "mathLogique", "mathEnsemble", "mathGraphe", "mathProba", "mathSuites", "InfoChiffree"]
+        "sections" : ["mathArithmétique", "mathMatrice", "mathLogiqueSIO", "mathLogiqueCG", "mathEnsemble", "mathGraphe", "mathProba", "mathSuites", "InfoChiffree"]
     },
     {
         "idCate" : "uml",
